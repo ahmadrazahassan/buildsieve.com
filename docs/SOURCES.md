@@ -18,6 +18,7 @@ All accessed October 28, 2026. Each fact also stores its source in the content f
 - https://replit.com
 - https://base44.com/pricing
 - https://base44.com
+- https://base44.com/about-us/legal/terms-of-service (text supplied by the owner from the live page, 2026-10-28)
 - https://bubble.io/pricing
 - https://bubble.io
 - Domain checks: https://rdap.verisign.com/com/v1/domain/

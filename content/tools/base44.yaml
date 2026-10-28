@@ -9,6 +9,7 @@ logo:
   url: "https://media.base44.com/images/public/marketing-site-assets/branded/favicon-branded-v2.png"
   accessed: 2026-10-28
 vendor:
+  legalName: "Wix.com Ltd. (operator of Base44, per the Terms of Service)"
   parent: "Wix.com Ltd. (copyright notice on base44.com)"
   parentSource: "https://base44.com"
   status: active
@@ -32,7 +33,7 @@ trialDays: null
 refundDays: null
 centralQuestion: "Is Base44 the simplest way for a non-developer to get a working app with logins and a database?"
 bestFor: "Small business owners and non-technical founders who want database, logins, hosting and payments without connecting anything."
-notIdealFor: "Teams that need monthly billing without an annual commitment, since the pricing page lists annual prices only."
+notIdealFor: "Teams that need monthly billing without an annual commitment, since the pricing page lists annual prices only, and anyone who wants a paid plan for personal use, which the terms do not allow."
 editorial: "Base44 is the most all-in-one app builder in this group: database, authentication, hosting and payments are built in, and paid plans add a custom domain with a free domain for a year. From Builder up, two-way GitHub sync exports the full source code, which answers the lock-in question."
 pros:
   - "Database, authentication, hosting and payments are built in, according to the home page."
@@ -44,6 +45,8 @@ cons:
   - "GitHub sync, and with it code export, starts on Builder at $40 a month, not on Starter."
   - "The free plan allows 25 message credits a month, enough for a small trial only."
   - "Integration credits are a second allowance to watch, from 2,000 a month on Starter."
+  - "The terms make fees and renewals non-refundable unless local law says otherwise."
+  - "Unused credits expire each month, and credits spent on output with errors are not restored."
 review:
   - id: built-in
     heading: "Everything built in"
@@ -69,6 +72,18 @@ review:
     sources:
       - title: "Base44 pricing"
         url: "https://base44.com/pricing"
+        accessed: 2026-10-28
+  - id: terms
+    heading: "What the terms of service say"
+    body:
+      - "Base44 is operated by Wix.com Ltd. The terms, last updated June 22, 2026, say you own the code and apps the platform generates for you. They also give Base44 a broad license to your data and generated output, including to train its AI models, and let it use your content in its marketing."
+      - "Money matters most here. Fees are non-refundable unless local law requires otherwise, subscriptions renew automatically at the then-current price without any intro discount, and the card can be charged up to three weeks before the renewal date. Turn off auto-renewal in your account settings if you only want one term."
+      - "Credits reset monthly and do not roll over. The number of credits an action uses depends on its complexity and can change, and credits spent on output with errors or hallucinations are not restored. Free plan credits can be reduced or withdrawn at any time."
+      - "Paid plans are for business or professional use only; the free plan may also be used personally. Health or payment card data needs a separate agreement first, and the terms advise against using generated apps in medical, legal or financial settings. You are responsible for reviewing generated code, for security settings, since defaults may allow public access, and for your own backups."
+      - "Disputes go to individual arbitration in the US, with a class action waiver. You can opt out of arbitration by emailing compliance@base44.com within 30 days of signing up. Base44's liability is capped at what you paid in the last 12 months or $100, whichever is greater."
+    sources:
+      - title: "Base44 Terms of Service"
+        url: "https://base44.com/about-us/legal/terms-of-service"
         accessed: 2026-10-28
 facts:
   app_from_prompt:

@@ -52,6 +52,7 @@ Downloaded one official mark per vendor from the vendor's own website, docs site
 - Banner links are plain `<a>` (no `next/link` prefetch, which would fire a tracked click), `rel="sponsored nofollow noopener"`, labeled "Sponsored" and "Affiliate link", and link to our Base44 profile. Copy uses only sourced facts and the computed cheapest price.
 - Placement: home (3), category pages (2), tool profiles (sidebar card, plus a strip on other tools), alternatives, comparisons without Base44, best-for pages, guides and glossary. Not in comparison tables, the Finder, the cost calculator or legal pages, per Section 8. Scores, rankings and Finder results ignore them.
 - Open: Base44's program terms on Impact are not yet logged (brand bidding, coupon and wording rules). The owner should read them before paid search.
+- 2026-10-29: Base44's customer Terms of Service (updated June 22, 2026) were read. They contain no affiliate rules. Relevant to us: benchmarking the platform needs Base44's written approval, which fits our research-only method (we never run tests). Health and payment card data need a separate agreement, so no banner promotes the health use-case ad. Findings (refunds, auto-renewal, credit expiry, data license, arbitration) were added to the Base44 profile with the terms as source.
 
 ## 2026-10-29 Domain live, Vercel Web Analytics on
 
