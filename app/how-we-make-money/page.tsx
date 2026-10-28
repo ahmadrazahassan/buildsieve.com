@@ -33,8 +33,22 @@ export default function MoneyPage() {
         </p>
       </section>
       <section>
+        <h2>Sponsored banners</h2>
+        <p>
+          Some pages show a banner marked &quot;Sponsored&quot; for a builder whose affiliate program we have joined.
+          We write the banner from the same sourced facts as the builder&apos;s profile, and every banner links to
+          that profile so you can read the full research, including the cons. A click goes through our /go/
+          redirect to the affiliate network&apos;s tracking link. Banners never appear inside comparison tables,
+          the Builder Finder, the cost calculator or legal pages, and they never change a score or a ranking.
+        </p>
+      </section>
+      <section>
         <h2>Current partners</h2>
-        <p>None yet. When we add partners, they will be listed here alphabetically. The order is not a ranking.</p>
+        <p>
+          {anyAffiliate()
+            ? "Base44, through the Impact affiliate network. More partners will be listed here alphabetically. The order is not a ranking."
+            : "None yet. When we add partners, they will be listed here alphabetically. The order is not a ranking."}
+        </p>
       </section>
       <section>
         <h2>What commercial interest can never change</h2>

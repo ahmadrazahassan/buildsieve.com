@@ -6,6 +6,7 @@ import { AffiliateNote } from "@/components/affiliate";
 import { Breadcrumbs, JsonLd } from "@/components/blocks";
 import { CategoryList, type ListItem } from "@/components/category-list";
 import { CategoryArt } from "@/components/category-art";
+import { Promo } from "@/components/promo";
 import { ToolCard } from "@/components/tool-card";
 import { ButtonLink, Panel } from "@/components/ui";
 import { getCategories, getCategory, getComparisons, getGuides, scoreValue, toolsInCategory } from "@/lib/content";
@@ -53,6 +54,7 @@ export default async function CategoryPage({ params }: PageProps<"/best/[categor
     };
   });
   const builds = [...new Set(tools.flatMap((t) => t.build))];
+  const isApps = c.slug === "ai-app-builders";
 
   return (
     <>
@@ -92,12 +94,15 @@ export default async function CategoryPage({ params }: PageProps<"/best/[categor
           </p>
         </div>
         <AffiliateNote className="mt-6" />
+        <Promo ad={isApps ? "apps" : "websites"} from="category" pos={1} layout="strip" className="mt-6" />
         <div className="mt-8">
           <Suspense fallback={<StaticList tools={tools} category={c.slug} />}>
             <CategoryList items={items} builds={builds} />
           </Suspense>
         </div>
       </div>
+
+      <Promo ad={isApps ? "competitors" : "websites"} from="category" pos={2} className="mt-16" />
 
       <Panel tone="surface" className="mt-16" aria-labelledby="buying-guide">
         <div className="grid gap-10 md:grid-cols-12">

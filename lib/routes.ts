@@ -29,9 +29,21 @@ export const routes = {
   cookies: () => "/cookie-settings",
   accessibility: () => "/accessibility",
   search: (q?: string) => (q ? `/search?q=${encodeURIComponent(q)}` : "/search"),
-  go: (slug: string, from: GoPlace, pos?: number) =>
-    `/go/${slug}?from=${from}${pos !== undefined ? `&pos=${pos}` : ""}`,
+  go: (slug: string, from: GoPlace, pos?: number, ad?: string) =>
+    `/go/${slug}?from=${from}${pos !== undefined ? `&pos=${pos}` : ""}${ad ? `&ad=${ad}` : ""}`,
 } as const;
 
-export const goPlaces = ["profile", "pricing", "category", "compare", "finder", "home", "usecase", "comparison"] as const;
+export const goPlaces = [
+  "profile",
+  "pricing",
+  "category",
+  "compare",
+  "finder",
+  "home",
+  "usecase",
+  "comparison",
+  "alternatives",
+  "guide",
+  "glossary",
+] as const;
 export type GoPlace = (typeof goPlaces)[number];

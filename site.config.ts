@@ -31,7 +31,7 @@ export const siteConfig = {
     registrar: "{{REGISTRAR}}",
     mail: "{{MAIL_PROVIDER}}",
     database: "{{DATABASE_PROVIDER}}",
-    affiliateNetworks: "{{AFFILIATE_NETWORKS}}",
+    affiliateNetworks: "Impact",
     adNetwork: "{{AD_NETWORK}}",
     maxAdsPerPage: "{{MAX_ADS_PER_PAGE}}",
   },
@@ -40,8 +40,8 @@ export const siteConfig = {
     // Forms stay hidden until a mail provider is configured and named in the privacy policy.
     newsletter: false,
     contactForm: false,
-    // Off until the owner has approved programs: buttons link to the vendor without tracking.
-    affiliateLinks: false,
+    // On since 2026-10-29: Base44 through Impact. Tools without an active link still go to the vendor untracked.
+    affiliateLinks: true,
     ads: false,
     userReviews: false,
     // Vercel Web Analytics, cookieless. Enable it in the Vercel project's Analytics tab too.

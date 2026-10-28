@@ -103,6 +103,8 @@ const bundle = {
   glossary: visible(glossary).toSorted((a, b) => a.term.localeCompare(b.term)),
   // Only which tools have an active program; the affiliate URLs themselves stay server side.
   affiliateTools: affiliateLinks.filter((l) => l.active).map((l) => l.tool),
+  // Ad ids per tool so banners can check their ad exists; the tracking URLs stay server side.
+  affiliateAds: Object.fromEntries(affiliateLinks.filter((l) => l.active).map((l) => [l.tool, l.ads.map((a) => a.id)])),
 };
 
 const searchIndex = [

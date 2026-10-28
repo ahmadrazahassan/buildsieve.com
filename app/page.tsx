@@ -4,6 +4,7 @@ import { AffiliateNote } from "@/components/affiliate";
 import { JsonLd } from "@/components/blocks";
 import { CategoryTabs } from "@/components/category-tabs";
 import { GuideCard } from "@/components/guide-card";
+import { Promo } from "@/components/promo";
 import { ToolCard } from "@/components/tool-card";
 import { ToolLogo } from "@/components/tool-logo";
 import { ButtonLink, Panel, SectionHeading } from "@/components/ui";
@@ -100,6 +101,10 @@ export default function HomePage() {
         </ul>
       </section>
 
+      <div className="container-site mt-8">
+        <Promo ad="pricing" from="home" pos={2} layout="strip" />
+      </div>
+
       <Panel tone="surface" className="mt-12 md:mt-16" aria-labelledby="by-category">
         <SectionHeading id="by-category" eyebrow="Categories" title="Builders by category" />
         <CategoryTabs
@@ -131,6 +136,8 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <Promo ad="apps" from="home" pos={1} className="mb-16 md:mb-24" />
 
       <Panel tone="surface" aria-labelledby="popular">
         <div className="grid gap-12 md:grid-cols-2">
@@ -188,6 +195,7 @@ export default function HomePage() {
               <GuideCard key={g.slug} guide={g} />
             ))}
         </div>
+        <Promo ad="product" from="home" pos={3} layout="strip" className="mt-10" />
       </section>
 
       <Panel tone="ink" aria-labelledby="how">

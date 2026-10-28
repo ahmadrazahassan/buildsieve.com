@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AffiliateNote, VisitButton } from "@/components/affiliate";
 import { Breadcrumbs, Byline, JsonLd, SourceList } from "@/components/blocks";
+import { Promo } from "@/components/promo";
 import { ToolCard } from "@/components/tool-card";
 import { ButtonLink } from "@/components/ui";
 import { getComparison, getComparisons, getTool } from "@/lib/content";
@@ -72,6 +73,15 @@ export default async function ComparisonPage({ params }: PageProps<"/compare/[sl
           </div>
         </section>
       </div>
+      {!c.tools.includes("base44") && (
+        <Promo
+          ad={tools.some((t) => t.categories.includes("ai-app-builders")) ? "competitors" : "websites"}
+          from="comparison"
+          pos={tools.length + 1}
+          layout="strip"
+          className="mt-12 max-w-4xl"
+        />
+      )}
       <div className="mt-12 flex flex-wrap gap-3">
         <ButtonLink href={routes.compareTool(c.tools)} variant="outline">
           Full side-by-side table

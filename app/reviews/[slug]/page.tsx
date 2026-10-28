@@ -12,6 +12,7 @@ import {
   TrueCost,
 } from "@/components/blocks";
 import { ProfileTabs } from "@/components/profile-tabs";
+import { Promo } from "@/components/promo";
 import { ScoreDerivation, ScoreSummary } from "@/components/score";
 import { FromPrice, ToolCard } from "@/components/tool-card";
 import { ToolLogo } from "@/components/tool-logo";
@@ -188,6 +189,8 @@ export default async function ToolPage({ params }: PageProps<"/reviews/[slug]">)
             <ProsCons pros={tool.pros} cons={tool.cons} />
           </section>
 
+          {tool.slug !== "base44" && <Promo ad="apps" from="profile" pos={3} layout="strip" />}
+
           {score && (
             <section id="score" aria-labelledby="score-h">
               <h2 id="score-h" className="font-display text-h2 font-medium">
@@ -247,6 +250,12 @@ export default async function ToolPage({ params }: PageProps<"/reviews/[slug]">)
 
         <aside className="min-w-0 lg:col-span-4" aria-label="Related">
           <div className="space-y-8 lg:sticky lg:top-40">
+            <Promo
+              ad={tool.slug === "base44" ? "pricing" : tool.categories.includes("ai-app-builders") ? "competitors" : "websites"}
+              from="profile"
+              pos={2}
+              layout="card"
+            />
             <div className="rounded-card border border-line bg-surface p-6">
               <h2 className="font-medium">Quick facts</h2>
               <dl className="mt-4 space-y-3 text-small">

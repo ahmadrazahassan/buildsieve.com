@@ -170,12 +170,21 @@ describe("contrast", () => {
 });
 
 describe("affiliate redirect", () => {
-  const link = { tool: "demo", network: "Demo network", url: "https://partner.example.com/t?id=1", subIdParam: "sub", active: true, added: "2026-10-29", checked: "2026-10-29" };
+  const link = { tool: "demo", network: "Demo network", url: "https://partner.example.com/t?id=1", subIdParam: "sub", active: true, added: "2026-10-29", checked: "2026-10-29", ads: [] };
   const base = { slug: "demo", from: "profile", pos: "2", tool: tool(), links: [link], enabled: true, origin: "https://site.test" };
   it("sends active affiliate links to the program URL with a whitelisted sub id", () => {
     const r = resolveGo(base);
     expect(r.kind).toBe("affiliate");
     expect(r.url).toBe("https://partner.example.com/t?id=1&sub=profile-2");
+  });
+  it("uses a listed network ad when ?ad= names it, and the default link otherwise", () => {
+    const withAds = { ...link, ads: [{ id: "apps", adId: 1, name: "Apps", landingPage: "https://example.com/apps", url: "https://partner.example.com/c/1?x=1", subIdParam: "subId1" }] };
+    expect(resolveGo({ ...base, links: [withAds], ad: "apps", from: "home" }).url).toBe("https://partner.example.com/c/1?x=1&subId1=home-2");
+    expect(resolveGo({ ...base, links: [withAds], ad: "https://evil.test" }).url).toBe("https://partner.example.com/t?id=1&sub=profile-2");
+  });
+  it("rejects ads that leave the program's tracking domain", () => {
+    const bad = { ...link, ads: [{ id: "x", adId: 1, name: "X", landingPage: "https://example.com", url: "https://evil.test/c/1" }] };
+    expect(checkAffiliateLinks([bad], [tool()], "2026-10-29").join()).toMatch(/tracking domain/);
   });
   it("drops unknown places and non-numeric positions from the sub id", () => {
     expect(resolveGo({ ...base, from: "<script>", pos: "x" }).url).toContain("sub=unknown-0");

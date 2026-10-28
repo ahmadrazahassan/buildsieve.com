@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, JsonLd, SourceList } from "@/components/blocks";
+import { Promo } from "@/components/promo";
 import { getGlossary, getTerm } from "@/lib/content";
 import { routes } from "@/lib/routes";
 
@@ -42,6 +43,7 @@ export default async function TermPage({ params }: PageProps<"/glossary/[slug]">
           ))}
         </p>
       )}
+      <Promo ad="apps" from="glossary" pos={1} layout="strip" className="mt-12 max-w-3xl" />
     </article>
   );
 }

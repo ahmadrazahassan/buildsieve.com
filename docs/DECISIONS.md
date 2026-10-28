@@ -45,6 +45,14 @@ Downloaded one official mark per vendor from the vendor's own website, docs site
 - The "Affiliate link" label and `rel="sponsored nofollow noopener"` appear only when that tool's click can earn a commission; other buttons use `rel="nofollow noopener"`.
 - Change from the brief: the brief falls back to the profile for inactive slugs. The owner asked that vendor links always go through the site's redirect, so a visitor who clicks "Visit" still reaches the vendor.
 
+## 2026-10-29 Base44 through Impact, sponsored banners
+
+- First approved program: Base44 on Impact. `affiliateLinks` is on. The default link is the owner's vanity link `https://base44.pxf.io/X4jrz3` (Visit buttons); eight English text links from the Impact ads export are listed as `ads` in `content/affiliate-links/base44.yaml`. Non-English and seasonal ads were left out.
+- The export contains only text links, no image creatives, so there was nothing image-based for Impact to host. Banners are our own components with Impact's own tracking links: `/go/base44?from=&pos=&ad=` answers 307 to the listed ad URL with `subId1=<place>-<slot>`, so Impact counts each click on its side and reports which slot converts. `ad` only selects from the list, and the build rejects ads on any domain other than the program link's, so the redirect cannot be pointed elsewhere.
+- Banner links are plain `<a>` (no `next/link` prefetch, which would fire a tracked click), `rel="sponsored nofollow noopener"`, labeled "Sponsored" and "Affiliate link", and link to our Base44 profile. Copy uses only sourced facts and the computed cheapest price.
+- Placement: home (3), category pages (2), tool profiles (sidebar card, plus a strip on other tools), alternatives, comparisons without Base44, best-for pages, guides and glossary. Not in comparison tables, the Finder, the cost calculator or legal pages, per Section 8. Scores, rankings and Finder results ignore them.
+- Open: Base44's program terms on Impact are not yet logged (brand bidding, coupon and wording rules). The owner should read them before paid search.
+
 ## 2026-10-29 Domain live, Vercel Web Analytics on
 
 - buildsieve.com is registered by the owner and added to the Vercel project.

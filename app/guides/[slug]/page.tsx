@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, Byline, JsonLd, SourceList } from "@/components/blocks";
+import { Promo } from "@/components/promo";
 import { ButtonLink } from "@/components/ui";
 import { getGuide, getGuides, getTool } from "@/lib/content";
 import { routes } from "@/lib/routes";
@@ -21,7 +22,9 @@ export default async function GuidePage({ params }: PageProps<"/guides/[slug]">)
   const g = getGuide((await params).slug);
   if (!g) notFound();
   const others = getGuides().filter((x) => x.slug !== g.slug);
+  const ad = /export|code/.test(g.slug) ? "competitors" : /price|credit|cost/.test(g.slug) ? "pricing" : "apps";
   return (
+    <>
     <article className="container-site py-8">
       <JsonLd
         data={{
@@ -77,6 +80,7 @@ export default async function GuidePage({ params }: PageProps<"/guides/[slug]">)
           </section>
         ))}
       </div>
+      <Promo ad={ad} from="guide" pos={1} layout="strip" className="mt-12 max-w-3xl" />
       <div className="mt-16 flex flex-wrap gap-3">
         <ButtonLink href={routes.finder()}>Find your builder</ButtonLink>
         <ButtonLink href={routes.costCalculator()} variant="outline">
@@ -98,5 +102,7 @@ export default async function GuidePage({ params }: PageProps<"/guides/[slug]">)
         </aside>
       )}
     </article>
+    <Promo ad="apps" from="guide" pos={2} className="mb-16" />
+    </>
   );
 }

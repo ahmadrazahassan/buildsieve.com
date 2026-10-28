@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/blocks";
+import { Promo } from "@/components/promo";
 import { ToolCard } from "@/components/tool-card";
 import { ButtonLink } from "@/components/ui";
 import { getAlternatives, getTool, getTools, mainCategory } from "@/lib/content";
@@ -26,7 +27,9 @@ export default async function AlternativesPage({ params }: PageProps<"/reviews/[
   if (!tool) notFound();
   const category = mainCategory(tool);
   const alts = getAlternatives(tool.slug, 8);
+  const ad = tool.categories.includes("ai-app-builders") ? "competitors" : "websites";
   return (
+    <>
     <div className="container-site py-8">
       <Breadcrumbs
         items={[
@@ -48,5 +51,7 @@ export default async function AlternativesPage({ params }: PageProps<"/reviews/[
         <ButtonLink href={routes.compareTool([tool.slug, ...alts.slice(0, 2).map((a) => a.slug)])}>Compare side by side</ButtonLink>
       </div>
     </div>
+    {tool.slug !== "base44" && <Promo ad={ad} from="alternatives" pos={1} className="mb-16" />}
+    </>
   );
 }

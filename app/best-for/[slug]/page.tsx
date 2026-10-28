@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AffiliateNote } from "@/components/affiliate";
 import { Breadcrumbs, Byline, JsonLd } from "@/components/blocks";
+import { Promo } from "@/components/promo";
 import { ToolCard } from "@/components/tool-card";
 import { ButtonLink } from "@/components/ui";
 import { getUseCase, getUseCases, listUseCaseTools } from "@/lib/content";
@@ -64,6 +65,13 @@ export default async function UseCasePage({ params }: PageProps<"/best-for/[slug
           </li>
         ))}
       </ol>
+      <Promo
+        ad={u.slug === "internal-tools" ? "crm" : u.slug === "portfolios" ? "websites" : "apps"}
+        from="usecase"
+        pos={1}
+        layout="strip"
+        className="mt-10"
+      />
       <div className="mt-10 flex flex-wrap gap-3">
         <ButtonLink href={routes.finder()}>Find your builder</ButtonLink>
         <ButtonLink href={routes.compareTool(tools.slice(0, 3).map((t) => t.slug))} variant="outline">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/blocks";
 import { GuideCard } from "@/components/guide-card";
+import { Promo } from "@/components/promo";
 import { getGuides } from "@/lib/content";
 import { routes } from "@/lib/routes";
 
@@ -21,6 +22,7 @@ export default function GuidesPage() {
           <GuideCard key={g.slug} guide={g} />
         ))}
       </div>
+      <Promo ad="product" from="guide" pos={3} layout="strip" className="mt-12" />
     </div>
   );
 }

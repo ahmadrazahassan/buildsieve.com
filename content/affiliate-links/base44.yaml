@@ -1,0 +1,59 @@
+tool: base44
+network: "Impact"
+# Default link given by the owner (Impact vanity link). Used by the "Visit Base44" buttons.
+url: "https://base44.pxf.io/X4jrz3"
+active: true
+added: 2026-10-28
+checked: 2026-10-28
+terms: "Program terms not yet logged; read them in Impact before paid search or coupon wording."
+# English text links from the Impact ads export (Ads (2).csv, 2026-10-28 UTC), hosted by Impact.
+# subId1 carries the place on our site, for example home-1, so Impact reports show which slot converts.
+ads:
+  - id: apps
+    adId: 3801253
+    name: "English Base44 Apps LP"
+    landingPage: "https://base44.com/lp-en/appweb"
+    url: "https://base44.pxf.io/c/7457480/3801253/25619?trafcat=app"
+    subIdParam: subId1
+  - id: websites
+    adId: 3751315
+    name: "English Base44 WSB LP"
+    landingPage: "https://www.base44.com/lp-websites"
+    url: "https://base44.pxf.io/c/7457480/3751315/25619?trafcat=wsb"
+    subIdParam: subId1
+  - id: builder
+    adId: 2477538
+    name: "English Base44 LP"
+    landingPage: "https://base44.com/lp-english"
+    url: "https://base44.pxf.io/c/7457480/2477538/25619?trafcat=hp"
+    subIdParam: subId1
+  - id: pricing
+    adId: 3783676
+    name: "English Base44 Pricing Page"
+    landingPage: "https://base44.com/lp-en/builder"
+    url: "https://base44.pxf.io/c/7457480/3783676/25619?trafcat=pricing"
+    subIdParam: subId1
+  - id: competitors
+    adId: 3786433
+    name: "English Base44 LP - Competitors"
+    landingPage: "https://base44.com/lp-english"
+    url: "https://base44.pxf.io/c/7457480/3786433/25619?trafcat=competitors"
+    subIdParam: subId1
+  - id: crm
+    adId: 3745904
+    name: "English Base44 CRM LP"
+    landingPage: "https://base44.com/use-cases/categories/crm"
+    url: "https://base44.pxf.io/c/7457480/3745904/25619?trafcat=crm"
+    subIdParam: subId1
+  - id: product
+    adId: 3762149
+    name: "English Base44 Product Management LP"
+    landingPage: "https://base44.com/use-cases/categories/product-management"
+    url: "https://base44.pxf.io/c/7457480/3762149/25619?trafcat=product"
+    subIdParam: subId1
+  - id: agents
+    adId: 3820726
+    name: "English SuperAgent LP"
+    landingPage: "https://base44.com/lp-en/agents"
+    url: "https://base44.pxf.io/c/7457480/3820726/25619?trafcat=agent"
+    subIdParam: subId1

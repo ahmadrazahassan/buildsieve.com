@@ -148,6 +148,14 @@ export function checkAffiliateLinks(links: AffiliateLink[], tools: Tool[], today
     if (daysBetween(today, l.checked) > 0 || daysBetween(today, l.added) > 0) e.push(`${w}: date is in the future`);
     if (l.active && daysBetween(l.checked, today) > STALE_PRICE_DAYS)
       e.push(`${w}: active link not checked for more than ${STALE_PRICE_DAYS} days`);
+    const host = new URL(l.url).hostname;
+    const ids = new Set<string>();
+    for (const ad of l.ads ?? []) {
+      if (ids.has(ad.id)) e.push(`${w}: duplicate ad id "${ad.id}"`);
+      ids.add(ad.id);
+      // Ads must use the same tracking domain as the program link, so ?ad= can never point elsewhere.
+      if (new URL(ad.url).hostname !== host) e.push(`${w}: ad "${ad.id}" is not on the program's tracking domain ${host}`);
+    }
   }
   return e;
 }

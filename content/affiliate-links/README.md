@@ -17,4 +17,16 @@ active: false
 added: 2026-10-28
 checked: 2026-10-28
 terms: "No brand keyword bidding."
+# Optional: network-hosted ads (for example Impact text links). Pages link to
+# /go/framer?from=home&pos=1&ad=apps and the route uses the matching URL. Ad URLs must be on
+# the same tracking domain as `url`, or the build fails.
+ads:
+  - id: apps
+    adId: 1234567
+    name: "Ad name from the network export"
+    landingPage: "https://www.example.com/apps"
+    url: "https://partner.example.com/c/1/1234567/1"
+    subIdParam: subId1
 ```
+
+Banners live in `components/promo.tsx` and render only when their ad id is listed here and active.

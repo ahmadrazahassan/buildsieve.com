@@ -148,6 +148,19 @@ export const affiliateLinkSchema = z.strictObject({
   added: isoDate,
   checked: isoDate,
   terms: z.string().optional(),
+  // Network-hosted ads (for example Impact text links). Pages pick one by id with ?ad=.
+  ads: z
+    .array(
+      z.strictObject({
+        id: z.string().regex(/^[a-z0-9-]+$/),
+        adId: z.number().int(),
+        name: z.string(),
+        landingPage: z.url({ protocol: /^https$/ }),
+        url: z.url({ protocol: /^https$/ }),
+        subIdParam: z.string().optional(),
+      }),
+    )
+    .default([]),
 });
 export type AffiliateLink = z.infer<typeof affiliateLinkSchema>;
 

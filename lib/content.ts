@@ -16,6 +16,7 @@ type Bundle = {
   guides: Guide[];
   glossary: GlossaryTerm[];
   affiliateTools: string[];
+  affiliateAds: Record<string, string[]>;
 };
 
 const data = bundle as unknown as Bundle;
@@ -85,4 +86,6 @@ export const fromPlan = (tool: Tool) => cheapestPaidPlan(tool.plans);
 /** True when the visitor's click on this tool's button can earn a commission. */
 export const hasAffiliate = (slug: string) => siteConfig.flags.affiliateLinks && data.affiliateTools.includes(slug);
 export const anyAffiliate = () => siteConfig.flags.affiliateLinks && data.affiliateTools.length > 0;
+/** True when the tool's active program lists this network-hosted ad (banners render only then). */
+export const hasAffiliateAd = (slug: string, ad: string) => hasAffiliate(slug) && (data.affiliateAds[slug] ?? []).includes(ad);
 export const scoresBySlug = () => Object.fromEntries(data.tools.map((t) => [t.slug, scoreValue(t)]));
