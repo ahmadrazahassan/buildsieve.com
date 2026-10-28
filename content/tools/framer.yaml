@@ -1,0 +1,150 @@
+slug: framer
+name: Framer
+status: published
+verification: verified
+website: "https://www.framer.com"
+logo:
+  file: "/logos/framer.png"
+  page: "https://www.framer.com"
+  url: "https://framerusercontent.com/images/aXvo6HfUhqvR7oFjFL8b4AcyGfg.png"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-website-builders
+summary: "A design-led site builder with a CMS, AI credits on every paid plan and per-month prices from $10, aimed at marketing sites and portfolios."
+build:
+  - business-site
+  - portfolio
+  - landing-page
+  - blog
+audience:
+  - freelancer
+  - startup-founder
+  - agency
+  - creator
+technicalLevel: no-code
+output: hosted-site
+freePlan: true
+freePlanLimits: "Framer domain only, 1 GB bandwidth and 500 AI credits to try. A custom domain needs a paid plan."
+trialDays: null
+refundDays: null
+centralQuestion: "Is Framer worth it if you care about design control more than built-in selling?"
+bestFor: "Freelancers, startups and agencies who want a polished marketing site or portfolio with a CMS and are happy to stay on Framer hosting."
+notIdealFor: "Anyone who needs a documented code export or an online store, because the pricing page we read covers neither."
+editorial: "Framer's pricing is easy to read: per-month prices, clear page and CMS caps, and add-ons priced in plain numbers. The weak spots for our research are what the pricing page leaves out: it says nothing about code export or selling, so we score those as unknown rather than guess."
+pros:
+  - "Clear caps per plan: Basic allows 30 pages and 1,000 CMS items, Pro allows 150 pages and 2,500 CMS items."
+  - "AI credits are included on paid plans: 1,000 per month on Basic and 3,000 per month on Pro."
+  - "A custom domain is included on both paid plans."
+  - "Add-ons have published prices, for example extra translation locales at $20 per locale."
+cons:
+  - "The pricing page does not mention code export, so leaving Framer may mean rebuilding the site elsewhere."
+  - "No online store is listed on the pricing page we read."
+  - "The free plan has 1 GB of bandwidth and no custom domain, so it suits drafts more than a live business site."
+  - "Yearly prices are behind a billing toggle and were not listed in our capture, so we can only show per-month prices."
+review:
+  - id: what-it-is
+    heading: "What you get with Framer"
+    body:
+      - "Framer sells hosted websites in three public tiers: a free plan, Basic at $10 per month and Pro at $30 per month, plus a custom Enterprise tier. Each tier is defined by hard caps on pages, CMS collections, CMS items and bandwidth, which makes it easy to predict when you would need to upgrade."
+      - "Picture a freelance designer with a 12-page portfolio and a small case study collection. Basic covers that comfortably with 30 pages and 1,000 CMS items. A startup with a growing blog and several landing pages would reach the Basic limits sooner and land on Pro, which allows 150 pages and 2,500 CMS items."
+    sources:
+      - title: "Framer pricing"
+        url: "https://www.framer.com/pricing"
+        accessed: 2026-10-28
+  - id: ai-credits
+    heading: "What the AI credits cover"
+    body:
+      - "Paid plans include AI credits: 1,000 per month on Basic and 3,000 per month on Pro, and the free plan includes 500 to try. The pricing page connects these credits to Framer's agents, but it does not spell out a full list of AI tasks, so we do not claim that Framer generates a complete site from one prompt."
+      - "If AI-assisted editing is the main reason you are looking at Framer, check the current agent documentation before you pay, because the credit amount alone does not tell you how many edits you can make."
+    sources:
+      - title: "Framer pricing"
+        url: "https://www.framer.com/pricing"
+        accessed: 2026-10-28
+  - id: limits-and-add-ons
+    heading: "Limits and add-ons that change the price"
+    body:
+      - "Pro can grow past its base caps with paid add-ons: extra pages at $20 per 100 (up to 700), extra CMS collections at $40 per 10, extra CMS items at $20 per 10,000 and extra bandwidth at $40 per 100 GB. Translation is sold separately at $20 per locale, up to 20 locales."
+      - "This means the sticker price is only the starting point for a multilingual or content-heavy site. A Pro site with two extra languages costs $30 plus $40 a month before any other add-on."
+    sources:
+      - title: "Framer pricing"
+        url: "https://www.framer.com/pricing"
+        accessed: 2026-10-28
+facts:
+  ai_site_generation:
+    value: unknown
+  ai_copywriting:
+    value: unknown
+  ai_edits_chat:
+    value: partly
+    note: "The pricing page lists agents that use AI credits; the exact scope of edits is not described there."
+    source: "https://www.framer.com/pricing"
+    accessed: 2026-10-28
+  hosting_included:
+    value: "yes"
+    note: "Bandwidth is included per plan, from 1 GB on Free to 100 GB on Pro."
+    source: "https://www.framer.com/pricing"
+    accessed: 2026-10-28
+  free_domain_first_year:
+    value: unknown
+  cms_or_blog:
+    value: "yes"
+    note: "CMS collections on every plan: 2 on Basic, 10 on Pro."
+    source: "https://www.framer.com/pricing"
+    accessed: 2026-10-28
+  booking:
+    value: unknown
+  multilingual:
+    value: paid-add-on
+    note: "Translation locales cost $20 per locale, up to 20."
+    source: "https://www.framer.com/pricing"
+    accessed: 2026-10-28
+  ecommerce:
+    value: unknown
+  custom_domain:
+    value: "yes"
+    note: "Included on Basic and Pro."
+    source: "https://www.framer.com/pricing"
+    accessed: 2026-10-28
+  code_export:
+    value: unknown
+  human_support:
+    value: unknown
+  dpa:
+    value: unknown
+plans:
+  - name: Basic
+    billing: monthly
+    termMonths: 1
+    introCents: 1000
+    renewalCents: 1000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "1,000 AI credits per month"
+    limits:
+      - "30 pages"
+      - "2 CMS collections, 1,000 CMS items"
+      - "50 GB bandwidth"
+      - "Custom domain included"
+    note: "Shown as a per-month price. A yearly billing toggle exists; yearly prices were not listed in our capture."
+    source: "https://www.framer.com/pricing"
+    accessed: 2026-10-28
+  - name: Pro
+    billing: monthly
+    termMonths: 1
+    introCents: 3000
+    renewalCents: 3000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "3,000 AI credits per month"
+    limits:
+      - "150 pages, then $20 per 100 (700 max)"
+      - "10 CMS collections, 2,500 CMS items"
+      - "100 GB bandwidth, then $40 per 100 GB"
+      - "Custom domain included"
+    note: "Shown as a per-month price. A yearly billing toggle exists; yearly prices were not listed in our capture."
+    source: "https://www.framer.com/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

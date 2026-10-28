@@ -1,0 +1,11 @@
+slug: renewal-price
+term: "Renewal price"
+status: published
+definition:
+  - "The price you pay after an introductory term ends. Hostinger Premium, for example, costs $2.49 a month for 48 months and renews at $10.99 a month."
+related:
+  - intro-price
+sources:
+  - title: "Hostinger Website Builder"
+    url: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28

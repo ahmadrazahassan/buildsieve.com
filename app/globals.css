@@ -1,0 +1,157 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "./preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* Reset Tailwind's default palette and radii: only brand tokens exist. */
+@theme {
+  --color-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --font-*: initial;
+
+  --color-primary: #0e7490;
+  --color-primary-hover: #0b5a70;
+  --color-primary-tint: #e3eff3;
+  --color-ink: #191919;
+  --color-bg: #f1f1f1;
+  --color-surface: #ffffff;
+  --color-muted: #5c5c5c;
+  --color-line: #dcdcdc;
+  --color-positive: #1e7a3a;
+  --color-negative: #b42318;
+  --color-white: #ffffff;
+  --color-on-ink-muted: #a3a3a3;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --radius-panel: 28px;
+  --radius-panel-sm: 20px;
+  --radius-card: 20px;
+  --radius-full: 9999px;
+
+  --shadow-float: 0 12px 32px -12px rgb(25 25 25 / 0.18);
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-gsf);
+
+  --text-display: clamp(3.5rem, 2.2rem + 5.4vw, 6.5rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.03em;
+  --text-h1: clamp(2.5rem, 1.8rem + 3vw, 4.5rem);
+  --text-h1--line-height: 1.05;
+  --text-h1--letter-spacing: -0.03em;
+  --text-h2: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  --text-h2--line-height: 1.15;
+  --text-h2--letter-spacing: -0.02em;
+  --text-h3: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);
+  --text-h3--line-height: 1.15;
+  --text-h3--letter-spacing: -0.01em;
+  --text-body: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-body--line-height: 1.6;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.5;
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1.2;
+  --text-eyebrow--letter-spacing: 0.08em;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-padding-top: 8rem;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-primary-tint);
+  color: var(--color-ink);
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility measure {
+  max-width: 68ch;
+}
+
+@utility container-site {
+  width: 100%;
+  max-width: 1360px;
+  margin-inline: auto;
+  padding-inline: 16px;
+  @media (width >= 768px) {
+    padding-inline: 32px;
+  }
+}
+
+@utility eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--text-eyebrow);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  &::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: var(--color-primary);
+  }
+}
+
+/* Prose inside reviews and guides */
+.prose-site p + p {
+  margin-top: 1rem;
+}
+.prose-site a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Section heading rise, CSS only. Stops under reduced motion. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 400ms var(--ease-out) both;
+}
+@supports (animation-timeline: view()) {
+  .rise-on-scroll {
+    animation: rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 40%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

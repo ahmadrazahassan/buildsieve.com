@@ -1,0 +1,118 @@
+slug: wix
+name: Wix
+status: published
+verification: verified
+website: "https://www.wix.com"
+logo:
+  file: "/logos/wix.png"
+  page: "https://www.wix.com"
+  url: "https://www.wix.com/favicon.ico"
+  accessed: 2026-10-28
+vendor:
+  legalName: "Wix.com Ltd."
+  status: active
+categories:
+  - ai-website-builders
+summary: "A large hosted builder whose plans page lists an AI website builder on all plans, a free domain for a year on premium plans and selling from Core up."
+build:
+  - business-site
+  - portfolio
+  - online-store
+  - landing-page
+audience:
+  - small-business
+  - freelancer
+  - creator
+  - nonprofit
+technicalLevel: no-code
+output: hosted-site
+freePlan: true
+freePlanLimits: "The free plan's limits are collapsed on the plans page; check storage, branding and domain rules before you rely on it."
+trialDays: null
+refundDays: null
+pricingGap: "The Wix plans page served to our research location showed prices that include GST and a note that USD prices are displayed for reference only. Because we could not verify a US price, we show no prices here. Check the price for your country at checkout."
+centralQuestion: "Is Wix the safer all-round pick when you want AI help, a store and one vendor for everything?"
+bestFor: "Small businesses that want an AI-assisted start, a store and hosting in one account, and value a free domain in year one."
+notIdealFor: "Readers who need a verified US price before deciding, or who want a documented code export."
+editorial: "Wix covers more of a small business's needs on one plans page than most builders: AI site creation, a free domain for a year and selling from the Core plan. We could not verify a US price because the page was localized, so Wix loses the price part of the score until we can."
+pros:
+  - "The plans page lists an AI website builder as a feature included with all plans."
+  - "Every premium plan on the page includes a free domain for one year."
+  - "Selling is built in from Core up, with Basic, Standard and Advanced ecommerce tiers."
+  - "Site collaborators scale with the plan, from 2 on Light to 100 on Business Elite."
+cons:
+  - "We could not verify a US price because the page we were served was localized, so the score's price part is 0 until we can."
+  - "Light, the cheapest premium plan, does not list accepting payments."
+  - "Displayed prices are for yearly subscriptions paid in full up front, according to the plans page."
+  - "We found no statement on code export on the pages we read."
+review:
+  - id: plans
+    heading: "How the Wix plans are structured"
+    body:
+      - "The plans page lists four premium plans: Light, Core, Business and Business Elite, plus a free plan. Storage rises from 2 GB on Light to 50 GB on Core, 100 GB on Business and unlimited on Business Elite, and site collaborators rise from 2 to 5, 10 and 100."
+      - "The page states that displayed prices are for yearly subscriptions paid in full at the time of purchase. It also says other subscription periods are available without listing them, so the monthly-billing price is something you see only at checkout."
+    sources:
+      - title: "Wix plans"
+        url: "https://www.wix.com/plans"
+        accessed: 2026-10-28
+  - id: selling
+    heading: "Selling online"
+    body:
+      - "Accepting payments starts with Core. Core lists Basic ecommerce, Business lists Standard ecommerce and Business Elite lists Advanced ecommerce. Light does not list payments at all, so a shop owner should start the comparison at Core."
+      - "A ceramics maker who sells a few dozen pieces a month would look at Core first, then compare what Standard ecommerce on Business adds before paying for it."
+    sources:
+      - title: "Wix plans"
+        url: "https://www.wix.com/plans"
+        accessed: 2026-10-28
+  - id: price-gap
+    heading: "Why we show no price"
+    body:
+      - "Vendor pricing pages are often localized by IP. The page we were served showed prices that include GST and a note that USD prices are for reference only. We do not convert currencies and present the result as a vendor price, so this profile shows no price until a US price can be verified."
+    sources:
+      - title: "Wix plans"
+        url: "https://www.wix.com/plans"
+        accessed: 2026-10-28
+facts:
+  ai_site_generation:
+    value: "yes"
+    note: "Listed as AI website builder under features included with all plans."
+    source: "https://www.wix.com/plans"
+    accessed: 2026-10-28
+  ai_copywriting:
+    value: unknown
+  ai_edits_chat:
+    value: unknown
+  hosting_included:
+    value: "yes"
+    note: "The free plan lists reliable web hosting."
+    source: "https://www.wix.com/plans"
+    accessed: 2026-10-28
+  free_domain_first_year:
+    value: "yes"
+    note: "Listed on all four premium plans."
+    source: "https://www.wix.com/plans"
+    accessed: 2026-10-28
+  cms_or_blog:
+    value: unknown
+  booking:
+    value: unknown
+  multilingual:
+    value: unknown
+  ecommerce:
+    value: "yes"
+    note: "From Core up; Light does not list payments."
+    source: "https://www.wix.com/plans"
+    accessed: 2026-10-28
+  custom_domain:
+    value: "yes"
+    note: "Premium plans include a domain free for one year."
+    source: "https://www.wix.com/plans"
+    accessed: 2026-10-28
+  code_export:
+    value: unknown
+  human_support:
+    value: unknown
+  dpa:
+    value: unknown
+published: 2026-10-28
+lastReviewed: 2026-10-28

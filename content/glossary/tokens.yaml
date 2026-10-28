@@ -1,0 +1,11 @@
+slug: tokens
+term: "Tokens"
+status: published
+definition:
+  - "Small units of text that AI models read and write. Some builders, such as Bolt.new, sell a monthly token allowance instead of credits: 1M tokens a month on Free and 10M on Pro."
+related:
+  - ai-credits
+sources:
+  - title: "Bolt.new pricing"
+    url: "https://bolt.new/pricing"
+    accessed: 2026-10-28

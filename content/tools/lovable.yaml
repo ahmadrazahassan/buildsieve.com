@@ -1,0 +1,184 @@
+slug: lovable
+name: Lovable
+status: published
+verification: verified
+website: "https://lovable.dev"
+logo:
+  file: "/logos/lovable.png"
+  page: "https://docs.lovable.dev"
+  url: "https://docs.lovable.dev/mintlify-assets/_mintlify/favicons/lovable-f9060f1e/AU_uVgnksniw8mje/_generated/favicon/apple-touch-icon.png"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-app-builders
+summary: "Prompt-to-app builder with credit-based plans from $25 a month, Git sync on every plan, and code download and custom domains from Pro up."
+build:
+  - web-app
+  - landing-page
+  - internal-tool
+audience:
+  - startup-founder
+  - freelancer
+  - small-business
+  - developer
+technicalLevel: low-code
+output: code-in-your-repo
+freePlan: true
+freePlanLimits: "5 build credits a day, up to 30 a month. No code download and no custom domain on Free."
+trialDays: null
+refundDays: null
+centralQuestion: "How far do Lovable's credits go, and can you take your code with you?"
+bestFor: "Founders and freelancers who want a working web app from chat and want the code in their own Git repository."
+notIdealFor: "Anyone who needs a fixed monthly cost no matter how much they build, because every message uses credits."
+editorial: "Lovable documents its credit system better than most: the docs show what a message costs, how long credits last and what each tier buys. Code ownership is a real strength, with Git sync on every plan and code download from Pro up. The cost risk is heavy building, where you climb the credit tiers quickly."
+pros:
+  - "Git sync to GitHub, GitLab or Bitbucket on every plan, including Free."
+  - "Code download and custom domains on Pro, Business and Enterprise."
+  - "Workspaces have unlimited members on all plans, sharing one credit pool."
+  - "The docs publish example message costs, for example 0.50 credits to make a button gray and 1.20 credits to add authentication."
+  - "Annual billing is printed per tier: Pro with 100 credits is $250 a year."
+cons:
+  - "Every message uses credits, so heavy building pushes you into higher tiers: Pro with 400 credits is $100 a month."
+  - "Monthly plan credits expire two months after they are issued."
+  - "Business costs twice as much as Pro for the same credit amount."
+  - "The Free plan cannot download code or use a custom domain."
+review:
+  - id: credits
+    heading: "What a credit buys"
+    body:
+      - "Lovable measures usage in credits. In Default mode the cost depends on how complex a task is, and Plan mode costs 1 credit per message. The pricing page gives examples: making a button gray costs 0.50 credits, removing a footer 0.90, adding authentication 1.20 and building a landing page with generated images 1.70."
+      - "On top of plan credits, Free, Pro and Business include 5 daily build credits and monthly grants of 20 Cloud credits, 4 AI credits and 1 connector credit. The docs call these monthly grants a temporary offering that can change."
+    sources:
+      - title: "Lovable pricing"
+        url: "https://lovable.dev/pricing"
+        accessed: 2026-10-28
+      - title: "Lovable docs: Plans and credits"
+        url: "https://docs.lovable.dev/introduction/plans-and-credits"
+        accessed: 2026-10-28
+  - id: pricing
+    heading: "Prices and credit tiers"
+    body:
+      - "Pro starts at $25 a month for 100 credits, or $250 a year. Business starts at $50 a month for the same 100 credits, or $500 a year. Both scale up through fixed tiers to 10,000 credits, where Pro costs $2,250 a month."
+      - "A founder who sends about 300 to 400 messages a month would land on the 400-credit tier at $100 a month, so it pays to estimate your message volume before choosing."
+    sources:
+      - title: "Lovable docs: Subscription plans"
+        url: "https://docs.lovable.dev/introduction/subscription-plans"
+        accessed: 2026-10-28
+  - id: ownership
+    heading: "Code ownership and leaving"
+    body:
+      - "Git sync with GitHub, GitLab and Bitbucket is available on every plan. Downloading the code and editing it directly start with Pro. That gives you a clear exit: your app's code lives in a repository you control."
+    sources:
+      - title: "Lovable docs: Subscription plans"
+        url: "https://docs.lovable.dev/introduction/subscription-plans"
+        accessed: 2026-10-28
+  - id: expiry
+    heading: "When credits expire"
+    body:
+      - "Monthly plan credits expire two months after they are issued. Annual plan credits expire one month after the annual period ends. Top-up credits last 12 months, and daily build credits expire at the end of each day."
+    sources:
+      - title: "Lovable pricing"
+        url: "https://lovable.dev/pricing"
+        accessed: 2026-10-28
+facts:
+  app_from_prompt:
+    value: "yes"
+    note: "Message examples include building a landing page with generated images."
+    source: "https://lovable.dev/pricing"
+    accessed: 2026-10-28
+  edits_by_chat:
+    value: "yes"
+    note: "Edits are made by messages, priced in credits."
+    source: "https://lovable.dev/pricing"
+    accessed: 2026-10-28
+  visual_editor:
+    value: unknown
+  database_included:
+    value: unknown
+  auth_included:
+    value: unknown
+  hosting_included:
+    value: "yes"
+    note: "Lovable Cloud hosting is covered by the included grant for most small apps; larger apps can use credits."
+    source: "https://lovable.dev/pricing"
+    accessed: 2026-10-28
+  mobile_output:
+    value: unknown
+  payments:
+    value: unknown
+  custom_domain:
+    value: "yes"
+    note: "Pro, Business and Enterprise; not Free."
+    source: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28
+  github_sync:
+    value: "yes"
+    note: "Git sync with GitHub, GitLab and Bitbucket on all plans."
+    source: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28
+  code_export:
+    value: "yes"
+    note: "Download code on Pro, Business and Enterprise."
+    source: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28
+  team_workspace:
+    value: "yes"
+    note: "Unlimited workspace members on all plans, sharing one credit pool."
+    source: "https://lovable.dev/pricing"
+    accessed: 2026-10-28
+  dpa:
+    value: unknown
+plans:
+  - name: Pro, 100 credits (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 2500
+    renewalCents: 2500
+    currencyShown: USD
+    perSeat: false
+    credits: "100 credits per month, plus 5 daily build credits"
+    limits:
+      - "Code download"
+      - "Custom domains"
+      - "Unlimited workspace members"
+    note: "Higher credit tiers up to 10,000 credits per month are priced separately."
+    source: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28
+  - name: Pro, 100 credits (annual)
+    billing: yearly
+    termMonths: 12
+    introCents: 2083
+    renewalCents: 2083
+    upfrontCents: 25000
+    currencyShown: USD
+    perSeat: false
+    credits: "100 credits per month, plus 5 daily build credits"
+    limits:
+      - "Code download"
+      - "Custom domains"
+    note: "$250 per year; the docs round it to $21 per month."
+    source: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28
+  - name: Pro, 400 credits (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 10000
+    renewalCents: 10000
+    currencyShown: USD
+    perSeat: false
+    credits: "400 credits per month"
+    source: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28
+  - name: Business, 100 credits (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 5000
+    renewalCents: 5000
+    currencyShown: USD
+    perSeat: false
+    credits: "100 credits per month, plus 5 daily build credits"
+    source: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

@@ -1,0 +1,47 @@
+slug: lovable-vs-bolt-new
+title: "Lovable vs. Bolt.new"
+tools:
+  - lovable
+  - bolt-new
+status: published
+centralQuestion: "For a first web app at about $25 a month, which gives you more for your money and an easier exit: Lovable or Bolt.new?"
+description: "Lovable vs. Bolt.new compared on price, credits vs. tokens, built-in backend and code ownership, from each vendor's own pages."
+intro: "Both start at $25 a month and both build apps from chat. The differences are in what the $25 buys, what is built in and how you leave."
+sections:
+  - heading: "What $25 a month buys"
+    body:
+      - "Lovable Pro at $25 a month includes 100 credits, plus 5 daily build credits. A small edit such as making a button gray costs 0.50 credits and adding authentication costs 1.20, according to Lovable's examples. Bolt.new Pro at $25 a month includes 10M tokens with no daily limit, and unused tokens roll over."
+      - "Lovable's examples make it easier to estimate how far your plan goes. Bolt.new's rollover makes uneven months less wasteful. If you build in bursts, rollover matters; if you want to predict cost per change, Lovable's published examples help more."
+    sources:
+      - title: "Lovable docs: Subscription plans"
+        url: "https://docs.lovable.dev/introduction/subscription-plans"
+        accessed: 2026-10-28
+      - title: "Lovable pricing"
+        url: "https://lovable.dev/pricing"
+        accessed: 2026-10-28
+      - title: "Bolt.new pricing"
+        url: "https://bolt.new/pricing"
+        accessed: 2026-10-28
+  - heading: "Backend"
+    body:
+      - "Bolt.new lists unlimited databases and user management and authentication under Bolt Cloud. On the Lovable pages we read, hosting through Lovable Cloud is covered by an included grant for small apps, but a built-in database and authentication are not described, so we mark them unknown."
+    sources:
+      - title: "Bolt.new"
+        url: "https://bolt.new"
+        accessed: 2026-10-28
+      - title: "Lovable pricing"
+        url: "https://lovable.dev/pricing"
+        accessed: 2026-10-28
+  - heading: "Taking your code with you"
+    body:
+      - "Lovable documents Git sync with GitHub, GitLab and Bitbucket on every plan and code download from Pro. Bolt.new lists GitHub as a starting point, but the pages we read do not describe ongoing sync or a code download."
+    sources:
+      - title: "Lovable docs: Subscription plans"
+        url: "https://docs.lovable.dev/introduction/subscription-plans"
+        accessed: 2026-10-28
+      - title: "Bolt.new"
+        url: "https://bolt.new"
+        accessed: 2026-10-28
+verdict: "Pick Lovable if owning your code is the priority: Git sync and download are documented. Pick Bolt.new if you want the database and logins bundled and like token rollover. Both cost $25 a month on their entry paid plan."
+published: 2026-10-28
+updated: 2026-10-28

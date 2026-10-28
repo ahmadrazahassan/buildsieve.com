@@ -1,0 +1,16 @@
+slug: internal-tools
+title: "Best AI app builders for internal tools"
+status: published
+centralQuestion: "Which AI app builder can produce an internal tool with logins and a database?"
+description: "AI app builders positioned for internal tools, ranked by Research Score, with database, authentication and code ownership facts."
+rule:
+  build:
+    - internal-tool
+  requireFacts:
+    - database_included
+  text: "Tools positioned for internal tools with a documented built-in database, sorted by Research Score."
+explanation:
+  - "Internal tools, such as an inventory tracker or a request form with approvals, need a database and logins far more than design polish."
+  - "Example: a 10-person team that tracks equipment loans needs a table of items, a login per person and a simple history. A builder with a built-in database and authentication gets there without a separate backend."
+published: 2026-10-28
+updated: 2026-10-28

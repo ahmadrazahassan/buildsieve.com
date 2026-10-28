@@ -1,0 +1,16 @@
+slug: online-stores
+title: "Best AI website builders for small online stores"
+status: published
+centralQuestion: "Which builder lets a small shop sell without high fees?"
+description: "Website builders that document selling online, ranked by Research Score, with store fees and the cheapest plan that can sell."
+rule:
+  build:
+    - online-store
+  requireFacts:
+    - ecommerce
+  text: "Tools positioned for online stores with a documented online store, sorted by Research Score."
+explanation:
+  - "For a shop, the cheapest plan is often not the cheapest option. Store fees and which plan first allows selling decide the real price."
+  - "Example: a shop selling $1,000 a month pays $20 a month in Squarespace Basic store fees, more than the difference to Core on annual billing."
+published: 2026-10-28
+updated: 2026-10-28

@@ -1,0 +1,179 @@
+slug: squarespace
+name: Squarespace
+status: published
+verification: verified
+website: "https://www.squarespace.com"
+logo:
+  file: "/logos/squarespace.png"
+  page: "https://www.squarespace.com"
+  url: "https://media-www.sqspcdn.com/logos/apple-touch-icon-180.png"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-website-builders
+summary: "A hosted builder with three plans from $12/mo billed annually, a 14-day free trial and a free domain for a year on annual plans."
+build:
+  - business-site
+  - portfolio
+  - online-store
+  - blog
+audience:
+  - small-business
+  - creator
+  - freelancer
+technicalLevel: no-code
+output: hosted-site
+freePlan: false
+trialDays: 14
+refundDays: null
+centralQuestion: "What does Squarespace really cost once you pick between monthly and annual billing and add selling?"
+bestFor: "Creators and small businesses who want a short, predictable price list, a free trial and selling built into every plan."
+notIdealFor: "Anyone who wants a permanent free plan, or who needs to verify AI site generation before paying."
+editorial: "Squarespace has one of the clearest price lists we have read: three plans, two billing options and transaction fees printed next to each plan. The gaps in our record are AI features and export, which the pricing page did not cover, so they stay unknown."
+pros:
+  - "Three plans with prices printed for both billing options: Basic $19 or $12, Core $27 or $17, Advanced $36 or $25 per month."
+  - "Every site starts with a 14-day free trial and no credit card is required."
+  - "Annual plans include one year of free domain registration for new websites."
+  - "Core and Advanced charge 0% online store fees."
+cons:
+  - "Basic charges a 2% online store fee and 7% on digital content and memberships, on top of payment processing."
+  - "Paying monthly costs much more: Basic is $19 a month instead of $12."
+  - "There is no permanent free plan, only the trial."
+  - "The pricing page we read does not describe AI site generation or code export."
+review:
+  - id: billing
+    heading: "Monthly or annual billing"
+    body:
+      - "Squarespace prints two prices per plan. Billed annually, Basic is $12 per month, Core $17 and Advanced $25. Billed monthly, the same plans cost $19, $27 and $36. Over a year, Basic costs $144 on annual billing and $228 on monthly billing."
+      - "Annual billing also brings one year of free domain registration for a new website, so for most people who are sure about the platform, annual is the cheaper path in year one."
+    sources:
+      - title: "Squarespace pricing"
+        url: "https://www.squarespace.com/pricing"
+        accessed: 2026-10-28
+  - id: fees
+    heading: "Transaction fees decide the right plan for sellers"
+    body:
+      - "Basic adds a 2% fee on online store sales and 7% on digital content and memberships. Core drops the store fee to 0% and the digital content fee to 5%, and Advanced charges 0% on both."
+      - "A shop selling $1,000 a month would pay $20 a month in Basic store fees, which is more than the $5 monthly difference to Core on annual billing. Core is the cheaper plan for that shop."
+    sources:
+      - title: "Squarespace pricing"
+        url: "https://www.squarespace.com/pricing"
+        accessed: 2026-10-28
+facts:
+  ai_site_generation:
+    value: unknown
+  ai_copywriting:
+    value: unknown
+  ai_edits_chat:
+    value: unknown
+  hosting_included:
+    value: unknown
+  free_domain_first_year:
+    value: "yes"
+    note: "On annual subscriptions for new websites."
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  cms_or_blog:
+    value: unknown
+  booking:
+    value: unknown
+  multilingual:
+    value: unknown
+  ecommerce:
+    value: "yes"
+    note: "Online store fee 2% on Basic, 0% on Core and Advanced."
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  custom_domain:
+    value: "yes"
+    note: "Annual plans include one year of free domain registration."
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  code_export:
+    value: unknown
+  human_support:
+    value: unknown
+  dpa:
+    value: unknown
+plans:
+  - name: Basic (annual)
+    billing: yearly
+    termMonths: 12
+    introCents: 1200
+    renewalCents: 1200
+    upfrontCents: 14400
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    limits:
+      - "Online store fee 2%"
+      - "Digital content and memberships fee 7%"
+      - "Free domain for one year"
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  - name: Basic (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 1900
+    renewalCents: 1900
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    limits:
+      - "Online store fee 2%"
+      - "Digital content and memberships fee 7%"
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  - name: Core (annual)
+    billing: yearly
+    termMonths: 12
+    introCents: 1700
+    renewalCents: 1700
+    upfrontCents: 20400
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    limits:
+      - "Online store fee 0%"
+      - "Digital content and memberships fee 5%"
+      - "Free domain for one year"
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  - name: Core (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 2700
+    renewalCents: 2700
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    limits:
+      - "Online store fee 0%"
+      - "Digital content and memberships fee 5%"
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  - name: Advanced (annual)
+    billing: yearly
+    termMonths: 12
+    introCents: 2500
+    renewalCents: 2500
+    upfrontCents: 30000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    limits:
+      - "Online store fee 0%"
+      - "Digital content and memberships fee 0%"
+      - "Free domain for one year"
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+  - name: Advanced (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 3600
+    renewalCents: 3600
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    limits:
+      - "Online store fee 0%"
+      - "Digital content and memberships fee 0%"
+    source: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

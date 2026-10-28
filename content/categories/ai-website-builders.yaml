@@ -1,0 +1,19 @@
+slug: ai-website-builders
+name: AI website builders
+singular: AI website builder
+status: published
+order: 1
+centralQuestion: "Which AI website builder gets a business site live at a price you can keep paying?"
+intro: "Hosted builders that create and run a website for you, with AI help for pages, text or edits. We rank them on documented facts and true cost, including what you pay after an intro price ends."
+guide:
+  - heading: "Read the renewal price first"
+    body:
+      - "Some builders advertise a low monthly price that only applies for a long prepaid term. Hostinger's Premium plan costs $2.49 a month for 48 months and renews at $10.99. Others, such as Framer and Squarespace, show one price that does not change after the first term. Compare the price you will pay in year three, not the one on the banner."
+  - heading: "Decide whether you need to sell"
+    body:
+      - "Selling changes the plan you need. On Squarespace, Basic adds a 2% online store fee that Core and Advanced do not charge. On Wix, accepting payments starts with Core. If you plan to sell, start your comparison at the first plan that includes selling."
+  - heading: "Check what happens if you leave"
+    body:
+      - "Few website builders document a code export on the pages we read. If you might move your site later, treat an unknown export answer as a reason to ask the vendor before you build."
+related:
+  - ai-app-builders

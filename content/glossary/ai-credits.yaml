@@ -1,0 +1,13 @@
+slug: ai-credits
+term: "AI credits"
+status: published
+definition:
+  - "A monthly allowance that an AI builder uses to meter AI work such as prompts, edits or generated content. Each vendor defines a credit differently, so 100 credits on one builder are not comparable with 100 on another."
+  - "Lovable, for example, prices messages by complexity and publishes examples: 0.50 credits to make a button gray, 1.20 to add authentication."
+related:
+  - tokens
+  - workload-units
+sources:
+  - title: "Lovable pricing"
+    url: "https://lovable.dev/pricing"
+    accessed: 2026-10-28

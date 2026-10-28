@@ -1,0 +1,148 @@
+slug: bubble
+name: Bubble
+status: published
+verification: verified
+website: "https://bubble.io"
+logo:
+  file: "/logos/bubble.svg"
+  page: "https://bubble.io/brand"
+  url: "https://meta-q.cdn.bubble.io/f1756386552835x162920220128838430/Logo%20%281%29.svg"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-app-builders
+summary: "A visual no-code platform with an AI agent, built-in database and native iOS and Android apps. Paid plans from $59 a month billed annually."
+build:
+  - web-app
+  - internal-tool
+  - mobile-app
+audience:
+  - startup-founder
+  - small-business
+  - agency
+technicalLevel: no-code
+output: hosted-site
+freePlan: true
+freePlanLimits: "50K workload units a month, 1 app editor, 6 hours of server logs, no overages."
+trialDays: null
+refundDays: null
+centralQuestion: "Is Bubble worth its higher price if you need web and native mobile apps from one visual editor?"
+bestFor: "Founders and agencies building a product that needs a web app and native mobile apps sharing one backend."
+notIdealFor: "Anyone who wants to leave with source code later, since the pages we read mention importing code but not exporting it."
+editorial: "Bubble is the most complete platform here for web plus native mobile, and generating an app does not use AI credits according to its home page. It is also the most expensive starting point at $59 a month billed annually, and the lack of a code export statement means you should plan to stay."
+pros:
+  - "Switch between the AI agent and a fully visual editor, including the backend."
+  - "Native iOS and Android apps that share data and workflows with the web app."
+  - "Hosting, a built-in database and auto-scaling are included."
+  - "The home page says generating an app does not use AI credits."
+cons:
+  - "Starter costs $59 a month billed annually, the highest entry price in this group."
+  - "Usage is metered in workload units, from 175K a month on Starter."
+  - "The pages we read describe importing code but not exporting it."
+  - "Only annual-billing prices are listed on the pricing page."
+review:
+  - id: editor
+    heading: "AI agent plus visual editor"
+    body:
+      - "You start by chatting with the Bubble AI Agent, and you can switch to the visual editor at any point. Bubble says every component is visual, including the backend, so changes do not require code."
+      - "An agency building a field-service app for a client can generate a first version, then adjust workflows visually where a chat prompt would be imprecise."
+    sources:
+      - title: "Bubble"
+        url: "https://bubble.io"
+        accessed: 2026-10-28
+  - id: mobile
+    heading: "Web and native mobile"
+    body:
+      - "Bubble builds native mobile apps for iOS and Android that share data and workflows with your web app, and lets you submit to the App Store and Google Play. Hosting, security and infrastructure are included for web and mobile."
+    sources:
+      - title: "Bubble"
+        url: "https://bubble.io"
+        accessed: 2026-10-28
+  - id: plans
+    heading: "Plans and workload units"
+    body:
+      - "The Web and Mobile prices on the pricing page, all billed annually: Starter $59 a month with 175K workload units, Growth $209 with 250K and 2 editors, Team $549 with 500K and 5 editors. The free plan includes 50K workload units and cannot enable overages."
+    sources:
+      - title: "Bubble pricing"
+        url: "https://bubble.io/pricing"
+        accessed: 2026-10-28
+facts:
+  app_from_prompt:
+    value: "yes"
+    note: "Chat with the Bubble AI Agent to turn your idea into an app."
+    source: "https://bubble.io"
+    accessed: 2026-10-28
+  edits_by_chat:
+    value: "yes"
+    source: "https://bubble.io"
+    accessed: 2026-10-28
+  visual_editor:
+    value: "yes"
+    source: "https://bubble.io"
+    accessed: 2026-10-28
+  database_included:
+    value: "yes"
+    source: "https://bubble.io"
+    accessed: 2026-10-28
+  auth_included:
+    value: unknown
+    note: "The home page mentions built-in privacy rules but does not describe authentication."
+  hosting_included:
+    value: "yes"
+    source: "https://bubble.io"
+    accessed: 2026-10-28
+  mobile_output:
+    value: "yes"
+    note: "Native iOS and Android apps."
+    source: "https://bubble.io"
+    accessed: 2026-10-28
+  payments:
+    value: unknown
+  custom_domain:
+    value: "yes"
+    note: "From Starter up."
+    source: "https://bubble.io/pricing"
+    accessed: 2026-10-28
+  github_sync:
+    value: unknown
+  code_export:
+    value: unknown
+  team_workspace:
+    value: "yes"
+    note: "2 editors on Growth, 5 on Team."
+    source: "https://bubble.io/pricing"
+    accessed: 2026-10-28
+  dpa:
+    value: unknown
+plans:
+  - name: Starter
+    billing: yearly
+    termMonths: 12
+    introCents: 5900
+    renewalCents: 5900
+    upfrontCents: 70800
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "175K workload units per month"
+    limits:
+      - "Custom domain"
+      - "Web and Mobile tier price"
+    source: "https://bubble.io/pricing"
+    accessed: 2026-10-28
+  - name: Growth
+    billing: yearly
+    termMonths: 12
+    introCents: 20900
+    renewalCents: 20900
+    upfrontCents: 250800
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "250K workload units per month"
+    limits:
+      - "2 app editors"
+      - "Custom domain"
+    source: "https://bubble.io/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

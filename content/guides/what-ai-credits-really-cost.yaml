@@ -1,0 +1,60 @@
+slug: what-ai-credits-really-cost
+title: "What AI credits really cost on app builders"
+tag: Credits
+status: published
+centralQuestion: "How do you estimate a monthly bill when every builder counts usage in a different unit?"
+description: "Credits, tokens and workload units explained with numbers from Lovable, Bolt.new, v0, Replit, Base44 and Bubble, and how to estimate your monthly use."
+intro: "AI app builders sell you a monthly allowance, but each one names and measures it differently. Here is what the units are, what the vendors say they buy, and how to size a plan."
+sections:
+  - heading: "Six builders, six units"
+    body:
+      - "Lovable sells credits per message, with published examples: 0.50 credits to make a button gray, 1.20 to add authentication. Bolt.new sells tokens, 10M a month on Pro. v0 includes $30 of monthly credits per user plus $2 a day on login. Replit's Core plan includes $20 toward more powerful models. Base44 has two allowances: message credits and integration credits. Bubble meters workload units."
+    tools:
+      - lovable
+      - bolt-new
+      - v0
+      - replit
+      - base44
+      - bubble
+    sources:
+      - title: "Lovable pricing"
+        url: "https://lovable.dev/pricing"
+        accessed: 2026-10-28
+      - title: "Bolt.new pricing"
+        url: "https://bolt.new/pricing"
+        accessed: 2026-10-28
+      - title: "v0 pricing"
+        url: "https://v0.app/pricing"
+        accessed: 2026-10-28
+      - title: "Replit pricing"
+        url: "https://replit.com/pricing"
+        accessed: 2026-10-28
+      - title: "Base44 pricing"
+        url: "https://base44.com/pricing"
+        accessed: 2026-10-28
+      - title: "Bubble pricing"
+        url: "https://bubble.io/pricing"
+        accessed: 2026-10-28
+  - heading: "Expiry and rollover change the math"
+    body:
+      - "Bolt.new rolls unused tokens over on paid plans. Lovable's monthly plan credits expire two months after they are issued, and daily build credits expire each day. A builder with rollover forgives an uneven month; one without it rewards steady use."
+    sources:
+      - title: "Bolt.new pricing"
+        url: "https://bolt.new/pricing"
+        accessed: 2026-10-28
+      - title: "Lovable pricing"
+        url: "https://lovable.dev/pricing"
+        accessed: 2026-10-28
+  - heading: "How to estimate your use"
+    body:
+      - "Start on the free plan and count how many prompts a typical change takes. Multiply by the number of changes you expect in a month and add a buffer for fixes. If that lands near a tier boundary, pick the higher tier for the first month and step down later."
+    points:
+      - "Count prompts per change on a real task, not a demo."
+      - "Add a buffer for fixing what the AI got wrong."
+      - "Check whether unused units roll over before buying a big tier."
+    sources:
+      - title: "Lovable docs: Subscription plans"
+        url: "https://docs.lovable.dev/introduction/subscription-plans"
+        accessed: 2026-10-28
+published: 2026-10-28
+updated: 2026-10-28

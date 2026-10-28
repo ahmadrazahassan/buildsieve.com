@@ -1,0 +1,143 @@
+slug: bolt-new
+name: Bolt.new
+status: published
+verification: verified
+website: "https://bolt.new"
+logo:
+  file: "/logos/bolt-new.svg"
+  page: "https://bolt.new"
+  url: "https://bolt.new/static/favicon.svg"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-app-builders
+summary: "Chat-based builder for apps and sites with token-based plans: 1M tokens free, 10M tokens on Pro at $25 a month, hosting and databases included."
+build:
+  - web-app
+  - landing-page
+  - business-site
+  - internal-tool
+audience:
+  - startup-founder
+  - freelancer
+  - developer
+  - student
+technicalLevel: low-code
+output: hosted-site
+freePlan: true
+freePlanLimits: "1M tokens a month with a 300K daily limit, 10 MB file uploads and Bolt branding on websites."
+trialDays: null
+refundDays: null
+centralQuestion: "How far do Bolt.new's tokens go, and what does Bolt Cloud include?"
+bestFor: "Builders who want hosting, databases and authentication bundled with a chat-based editor at a flat $25 a month."
+notIdealFor: "Anyone who needs a documented code export before committing, because the pages we read do not describe one."
+editorial: "Bolt.new keeps its price list short: a free plan, Pro at $25 and Teams at $30 per member. Tokens roll over on paid plans and Bolt Cloud bundles hosting, databases and authentication. The open question is code export, which the pages we read leave unanswered."
+pros:
+  - "Pro is a flat $25 a month for 10M tokens with no daily limit."
+  - "Unused tokens roll over on paid plans."
+  - "Bolt Cloud lists hosting, unlimited databases and user management and authentication."
+  - "A free plan with 1M tokens a month lets you try it before paying."
+cons:
+  - "The pages we read do not mention code export or download."
+  - "The free plan shows Bolt branding on websites and has no custom domain."
+  - "Annual prices are behind a toggle (save up to 28%) and were not listed in our capture."
+  - "Teams costs $30 per member, so a five-person team pays $150 a month."
+review:
+  - id: tokens
+    heading: "Tokens instead of messages"
+    body:
+      - "Bolt.new measures usage in tokens. Free includes 1M tokens a month with a 300K daily limit. Pro includes 10M tokens a month with no daily limit, and Teams starts at 10M tokens per member. Rollover is included on paid plans, so a quiet month does not waste your allowance."
+      - "The pages we read do not translate tokens into a number of prompts or features, so the best way to size your plan is to start on Free and watch how quickly a typical change uses your daily allowance."
+    sources:
+      - title: "Bolt.new pricing"
+        url: "https://bolt.new/pricing"
+        accessed: 2026-10-28
+  - id: cloud
+    heading: "What Bolt Cloud includes"
+    body:
+      - "The home page lists Bolt Cloud with unlimited databases, user management and authentication, and hosting with analytics and custom domains. On the pricing page, custom domains start with Pro."
+      - "A freelancer building a booking app for a client can keep the database, logins and hosting on one bill, which is simpler than wiring three services together."
+    sources:
+      - title: "Bolt.new"
+        url: "https://bolt.new"
+        accessed: 2026-10-28
+      - title: "Bolt.new pricing"
+        url: "https://bolt.new/pricing"
+        accessed: 2026-10-28
+facts:
+  app_from_prompt:
+    value: "yes"
+    note: "Create apps and websites by chatting with AI."
+    source: "https://bolt.new"
+    accessed: 2026-10-28
+  edits_by_chat:
+    value: "yes"
+    source: "https://bolt.new"
+    accessed: 2026-10-28
+  visual_editor:
+    value: unknown
+  database_included:
+    value: "yes"
+    note: "Unlimited databases with Bolt Cloud."
+    source: "https://bolt.new/pricing"
+    accessed: 2026-10-28
+  auth_included:
+    value: "yes"
+    note: "User management and authentication listed under Bolt Cloud."
+    source: "https://bolt.new"
+    accessed: 2026-10-28
+  hosting_included:
+    value: "yes"
+    source: "https://bolt.new/pricing"
+    accessed: 2026-10-28
+  mobile_output:
+    value: unknown
+  payments:
+    value: unknown
+  custom_domain:
+    value: "yes"
+    note: "From Pro up."
+    source: "https://bolt.new/pricing"
+    accessed: 2026-10-28
+  github_sync:
+    value: unknown
+    note: "GitHub is listed as a starting point; ongoing sync is not described on the pages we read."
+  code_export:
+    value: unknown
+  team_workspace:
+    value: "yes"
+    note: "Teams plan priced per member."
+    source: "https://bolt.new/pricing"
+    accessed: 2026-10-28
+  dpa:
+    value: unknown
+plans:
+  - name: Pro
+    billing: monthly
+    termMonths: 1
+    introCents: 2500
+    renewalCents: 2500
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "10M tokens per month, no daily limit, rollover"
+    limits:
+      - "Custom domain"
+      - "Hosting included"
+    source: "https://bolt.new/pricing"
+    accessed: 2026-10-28
+  - name: Teams
+    billing: monthly
+    termMonths: 1
+    introCents: 3000
+    renewalCents: 3000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: true
+    credits: "From 10M tokens per member per month"
+    limits:
+      - "Custom domain"
+      - "Hosting included"
+    source: "https://bolt.new/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

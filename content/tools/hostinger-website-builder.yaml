@@ -1,0 +1,151 @@
+slug: hostinger-website-builder
+name: Hostinger Website Builder
+status: published
+verification: verified
+website: "https://www.hostinger.com/website-builder"
+logo:
+  file: "/logos/hostinger-website-builder.png"
+  page: "https://www.hostinger.com"
+  url: "https://www.hostinger.com/logo-400x400.png"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-website-builders
+summary: "Very low intro prices on 48-month terms, a free domain for a year and a 30-day money-back guarantee, with renewal prices four to five times higher."
+build:
+  - business-site
+  - online-store
+  - landing-page
+audience:
+  - small-business
+  - freelancer
+  - student
+technicalLevel: no-code
+output: hosted-site
+freePlan: false
+trialDays: 14
+refundDays: 30
+centralQuestion: "How much does Hostinger cost after the 48-month intro price ends?"
+bestFor: "Budget-first small sites where you are happy to prepay four years and want a free domain in year one."
+notIdealFor: "Anyone who reads only the intro price: Premium renews at $10.99 a month, more than four times its $2.49 intro price."
+editorial: "Hostinger's intro prices are the lowest in this category, but they come with a 48-month prepayment and steep renewal prices. The page prints both numbers, which is more than many hosts do. Read the renewal line before you compare it with monthly-billed builders."
+pros:
+  - "Intro prices from $2.49 a month on a 48-month term, with the total charged today printed on the page."
+  - "Renewal prices are printed next to each plan, for example $10.99 a month for Premium."
+  - "Every plan lists a custom domain free for one year."
+  - "A 30-day money-back guarantee, plus a 14-day free trial mentioned in the FAQ."
+cons:
+  - "The intro price requires paying 48 months up front: $119.52 for Premium."
+  - "Renewal prices are much higher: Premium goes from $2.49 to $10.99 a month, Unlimited from $3.49 to $16.99."
+  - "Premium does not list ecommerce; selling starts with Unlimited."
+  - "AI tools such as the AI Writer are mentioned on the page but not tied to specific plans."
+review:
+  - id: intro-vs-renewal
+    heading: "The intro price and the renewal price"
+    body:
+      - "Premium costs $2.49 a month for 48 months, charged as $119.52 today, and then renews at $10.99 a month for the same term. Unlimited costs $3.49 a month ($167.52 today) and renews at $16.99. Cloud Startup costs $7.99 a month ($383.52 today) and renews at $25.99."
+      - "The four-year term matters more than the monthly figure. If you leave after one year, you have still paid for four, unless you use the 30-day money-back guarantee. If you stay past four years, Premium costs $131.88 a year instead of $29.88."
+    sources:
+      - title: "Hostinger Website Builder"
+        url: "https://www.hostinger.com/website-builder"
+        accessed: 2026-10-28
+  - id: plans
+    heading: "Which plan fits"
+    body:
+      - "Premium allows up to 3 websites and does not list ecommerce. Unlimited and Cloud Startup allow unlimited websites under Hostinger's Fair Usage Policy and list ecommerce as available, along with free AI email marketing for one year up to 100 subscribers."
+      - "A freelancer with one portfolio site and no shop fits Premium. A small bakery that wants to take orders online should start with Unlimited."
+    sources:
+      - title: "Hostinger Website Builder"
+        url: "https://www.hostinger.com/website-builder"
+        accessed: 2026-10-28
+  - id: ai
+    heading: "AI features"
+    body:
+      - "The page mentions an AI Writer, an AI SEO Assistant and an AI Logo Maker, plus an AI assistant for online stores on each plan. It does not say which plans include the first three, so we mark AI copywriting as partly documented."
+    sources:
+      - title: "Hostinger Website Builder"
+        url: "https://www.hostinger.com/website-builder"
+        accessed: 2026-10-28
+facts:
+  ai_site_generation:
+    value: unknown
+  ai_copywriting:
+    value: partly
+    note: "An AI Writer is mentioned on the page but not tied to specific plans."
+    source: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28
+  ai_edits_chat:
+    value: unknown
+  hosting_included:
+    value: unknown
+  free_domain_first_year:
+    value: "yes"
+    note: "Custom domain free for 1 year on every plan listed."
+    source: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28
+  cms_or_blog:
+    value: unknown
+  booking:
+    value: unknown
+  multilingual:
+    value: unknown
+  ecommerce:
+    value: partly
+    note: "Listed as available on Unlimited and Cloud Startup, not on Premium."
+    source: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28
+  custom_domain:
+    value: "yes"
+    source: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28
+  code_export:
+    value: unknown
+  human_support:
+    value: unknown
+  dpa:
+    value: unknown
+plans:
+  - name: Premium
+    billing: multi-year
+    termMonths: 48
+    introCents: 249
+    renewalCents: 1099
+    upfrontCents: 11952
+    currencyShown: "USD (from the page's structured data)"
+    perSeat: false
+    limits:
+      - "Up to 3 websites"
+      - "Custom domain free for 1 year"
+    source: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28
+  - name: Unlimited
+    billing: multi-year
+    termMonths: 48
+    introCents: 349
+    renewalCents: 1699
+    upfrontCents: 16752
+    currencyShown: "USD (from the page's structured data)"
+    perSeat: false
+    limits:
+      - "Unlimited websites (Fair Usage Policy)"
+      - "Ecommerce available"
+      - "Custom domain free for 1 year"
+    source: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28
+  - name: Cloud Startup
+    billing: multi-year
+    termMonths: 48
+    introCents: 799
+    renewalCents: 2599
+    upfrontCents: 38352
+    currencyShown: "USD (from the page's structured data)"
+    perSeat: false
+    limits:
+      - "Unlimited websites (Fair Usage Policy)"
+      - "Ecommerce available"
+      - "Custom domain free for 1 year"
+    source: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

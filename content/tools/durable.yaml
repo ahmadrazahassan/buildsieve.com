@@ -1,0 +1,150 @@
+slug: durable
+name: Durable
+status: published
+verification: verified
+website: "https://durable.com"
+logo:
+  file: "/logos/durable.png"
+  page: "https://durable.com"
+  url: "https://durable.com/apple-touch-icon.png"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-website-builders
+summary: "An AI-first builder for service businesses: AI-generated pages, built-in CRM and bookings, with paid plans shown from $25 a month."
+build:
+  - business-site
+  - landing-page
+audience:
+  - small-business
+  - freelancer
+technicalLevel: no-code
+output: hosted-site
+freePlan: true
+freePlanLimits: "Free durable.site subdomain, 300 AI credits in total (not monthly), CRM limited to 10 customers."
+trialDays: null
+refundDays: null
+centralQuestion: "Is Durable a good fit for a service business that wants a site, bookings and a simple CRM in one place?"
+bestFor: "Service businesses such as cleaners, coaches or contractors who want an AI-generated site with bookings and a CRM."
+notIdealFor: "Shops, and anyone who needs a documented code export or a clear yearly price before checkout."
+editorial: "Durable bundles things other builders sell separately: bookings, a CRM and AI credits for content. Its pricing page shows two different prices for each paid plan, which we name rather than resolve. Check the final number at checkout."
+pros:
+  - "AI-generated pages and AI website editing on all plans, according to the pricing page."
+  - "Launch includes unlimited bookings and a built-in CRM with no customer cap."
+  - "Launch includes priority human support."
+  - "A free plan exists with 300 AI credits and a durable.site subdomain."
+cons:
+  - "Each paid plan shows two prices: $25 or $22 a month for Launch, $49 or $41 for Grow, without labels for monthly or yearly."
+  - "The free plan's 300 AI credits are one-time, not monthly."
+  - "Translation is listed on Grow only."
+  - "The pricing page does not mention an online store or code export."
+review:
+  - id: what-you-get
+    heading: "What Durable bundles"
+    body:
+      - "Durable's plans combine a website with business tools. Launch lists a professional website, secure hosting, unlimited traffic, a built-in CRM, unlimited bookings, 1,000 AI credits per month, up to $20 of domain value and priority human support. Grow adds unlimited team members, 5,000 AI credits per month, translation and a $40 domain credit."
+      - "Take a house cleaner who wants clients to book online and wants to keep a simple list of customers. On Launch, both are included, so there is no separate booking tool to pay for."
+    sources:
+      - title: "Durable pricing"
+        url: "https://durable.com/pricing"
+        accessed: 2026-10-28
+  - id: two-prices
+    heading: "Two prices per plan"
+    body:
+      - "The plan cards show Launch at $25 a month and Grow at $49 a month. The comparison table on the same page shows $22 and $41. The page has a Monthly and Yearly toggle with a note to save 15%, but it does not label which figure belongs to which billing option."
+      - "We store the plan card values and recommend you check the final price at checkout before you pay."
+    sources:
+      - title: "Durable pricing"
+        url: "https://durable.com/pricing"
+        accessed: 2026-10-28
+facts:
+  ai_site_generation:
+    value: "yes"
+    note: "AI-generated pages (unlimited) on all plans."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  ai_copywriting:
+    value: partly
+    note: "AI credits can be used to write blog posts."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  ai_edits_chat:
+    value: "yes"
+    note: "AI website editing listed on all plans."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  hosting_included:
+    value: "yes"
+    note: "Secure hosting and unlimited traffic on Launch."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  free_domain_first_year:
+    value: partly
+    note: "Launch includes up to $20 of domain value, Grow a $40 domain credit; the term is not stated."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  cms_or_blog:
+    value: partly
+    note: "Blog posts written with AI credits; no CMS collections described."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  booking:
+    value: "yes"
+    note: "Unlimited booking on Launch."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  multilingual:
+    value: partly
+    note: "Translation listed on Grow only."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  ecommerce:
+    value: unknown
+  custom_domain:
+    value: "yes"
+    note: "The page says custom domains are free with every subscription."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  code_export:
+    value: unknown
+  human_support:
+    value: "yes"
+    note: "Priority human support on Launch."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  dpa:
+    value: unknown
+plans:
+  - name: Launch
+    billing: monthly
+    termMonths: 1
+    introCents: 2500
+    renewalCents: 2500
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "1,000 AI credits per month"
+    limits:
+      - "Built-in CRM, unlimited customers"
+      - "Unlimited booking"
+      - "Up to $20 domain value"
+    note: "Plan card value. The comparison table on the same page shows $22/m; the page does not label which is monthly or yearly. Check at checkout."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+  - name: Grow
+    billing: monthly
+    termMonths: 1
+    introCents: 4900
+    renewalCents: 4900
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "5,000 AI credits per month"
+    limits:
+      - "Unlimited team members"
+      - "Translation"
+      - "$40 domain credit"
+    note: "Plan card value. The comparison table on the same page shows $41/m; the page does not label which is monthly or yearly. Check at checkout."
+    source: "https://durable.com/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

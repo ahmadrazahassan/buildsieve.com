@@ -1,0 +1,11 @@
+slug: workload-units
+term: "Workload units"
+status: published
+definition:
+  - "Bubble's unit for measuring the server work an app does, such as reading data or running workflows. Plans include a monthly amount, for example 175K on Starter."
+related:
+  - ai-credits
+sources:
+  - title: "Bubble pricing"
+    url: "https://bubble.io/pricing"
+    accessed: 2026-10-28

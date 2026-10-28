@@ -1,0 +1,167 @@
+slug: base44
+name: Base44
+status: published
+verification: verified
+website: "https://base44.com"
+logo:
+  file: "/logos/base44.png"
+  page: "https://base44.com"
+  url: "https://media.base44.com/images/public/marketing-site-assets/branded/favicon-branded-v2.png"
+  accessed: 2026-10-28
+vendor:
+  parent: "Wix.com Ltd. (copyright notice on base44.com)"
+  parentSource: "https://base44.com"
+  status: active
+categories:
+  - ai-app-builders
+summary: "Describe an app in plain language and get one with a built-in database, logins, hosting and payments. Paid plans from $16 a month billed annually."
+build:
+  - web-app
+  - internal-tool
+  - landing-page
+audience:
+  - small-business
+  - startup-founder
+  - freelancer
+  - nonprofit
+technicalLevel: no-code
+output: hosted-site-plus-export
+freePlan: true
+freePlanLimits: "25 message credits and 100 integration credits a month, up to 5 apps."
+trialDays: null
+refundDays: null
+centralQuestion: "Is Base44 the simplest way for a non-developer to get a working app with logins and a database?"
+bestFor: "Small business owners and non-technical founders who want database, logins, hosting and payments without connecting anything."
+notIdealFor: "Teams that need monthly billing without an annual commitment, since the pricing page lists annual prices only."
+editorial: "Base44 is the most all-in-one app builder in this group: database, authentication, hosting and payments are built in, and paid plans add a custom domain with a free domain for a year. From Builder up, two-way GitHub sync exports the full source code, which answers the lock-in question."
+pros:
+  - "Database, authentication, hosting and payments are built in, according to the home page."
+  - "Two-way GitHub sync exports the full source code to your own repository, on Builder and above."
+  - "Paid plans include a custom domain and a free domain for one year."
+  - "Starter is $16 a month billed annually with 100 message credits."
+cons:
+  - "The pricing page lists only annual-billing prices."
+  - "GitHub sync, and with it code export, starts on Builder at $40 a month, not on Starter."
+  - "The free plan allows 25 message credits a month, enough for a small trial only."
+  - "Integration credits are a second allowance to watch, from 2,000 a month on Starter."
+review:
+  - id: built-in
+    heading: "Everything built in"
+    body:
+      - "Base44's home page says you describe your idea in plain language and keep refining the app by chatting. User management and authentication are built in, the database is already there, hosting is built in and you can get paid directly through Base44."
+      - "A yoga studio owner who wants members to log in and book classes does not need to set up a database or a login service. The trade-off is that the app lives on Base44 until you use GitHub sync."
+    sources:
+      - title: "Base44"
+        url: "https://base44.com"
+        accessed: 2026-10-28
+  - id: plans
+    heading: "Plans, credits and the annual price"
+    body:
+      - "Billed annually, Starter costs $16 a month with 100 message credits and 2,000 integration credits, Builder $40 with 250 and 10,000, Pro $80 with 500 and 20,000, and Elite $160 with 1,200 and 50,000. The page says annual billing saves 20% but lists no monthly-billing prices."
+    sources:
+      - title: "Base44 pricing"
+        url: "https://base44.com/pricing"
+        accessed: 2026-10-28
+  - id: export
+    heading: "Leaving with your code"
+    body:
+      - "The pricing FAQ says two-way GitHub sync exports the full source code to your own repo at any time. The GitHub integration is listed on Builder, Pro and Elite, so if an exit path matters to you, budget for Builder rather than Starter."
+    sources:
+      - title: "Base44 pricing"
+        url: "https://base44.com/pricing"
+        accessed: 2026-10-28
+facts:
+  app_from_prompt:
+    value: "yes"
+    note: "Describe your idea in plain language."
+    source: "https://base44.com"
+    accessed: 2026-10-28
+  edits_by_chat:
+    value: "yes"
+    source: "https://base44.com"
+    accessed: 2026-10-28
+  visual_editor:
+    value: unknown
+  database_included:
+    value: "yes"
+    source: "https://base44.com"
+    accessed: 2026-10-28
+  auth_included:
+    value: "yes"
+    source: "https://base44.com"
+    accessed: 2026-10-28
+  hosting_included:
+    value: "yes"
+    source: "https://base44.com"
+    accessed: 2026-10-28
+  mobile_output:
+    value: unknown
+  payments:
+    value: "yes"
+    note: "Get paid directly through Base44."
+    source: "https://base44.com"
+    accessed: 2026-10-28
+  custom_domain:
+    value: "yes"
+    note: "Paid plans, with a free domain for one year."
+    source: "https://base44.com/pricing"
+    accessed: 2026-10-28
+  github_sync:
+    value: "yes"
+    note: "Listed on Builder, Pro and Elite."
+    source: "https://base44.com/pricing"
+    accessed: 2026-10-28
+  code_export:
+    value: "yes"
+    note: "Two-way GitHub sync exports the full source code, on plans with the GitHub integration."
+    source: "https://base44.com/pricing"
+    accessed: 2026-10-28
+  team_workspace:
+    value: unknown
+  dpa:
+    value: unknown
+plans:
+  - name: Starter
+    billing: yearly
+    termMonths: 12
+    introCents: 1600
+    renewalCents: 1600
+    upfrontCents: 19200
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "100 message credits and 2,000 integration credits per month"
+    limits:
+      - "Unlimited apps"
+      - "Custom domain, free domain for 1 year"
+    source: "https://base44.com/pricing"
+    accessed: 2026-10-28
+  - name: Builder
+    billing: yearly
+    termMonths: 12
+    introCents: 4000
+    renewalCents: 4000
+    upfrontCents: 48000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "250 message credits and 10,000 integration credits per month"
+    limits:
+      - "GitHub integration"
+      - "Custom domain, free domain for 1 year"
+    source: "https://base44.com/pricing"
+    accessed: 2026-10-28
+  - name: Pro
+    billing: yearly
+    termMonths: 12
+    introCents: 8000
+    renewalCents: 8000
+    upfrontCents: 96000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "500 message credits and 20,000 integration credits per month"
+    limits:
+      - "GitHub integration"
+      - "Early access to beta features"
+    source: "https://base44.com/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

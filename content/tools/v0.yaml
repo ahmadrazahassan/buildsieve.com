@@ -1,0 +1,130 @@
+slug: v0
+name: v0
+status: published
+verification: verified
+website: "https://v0.app"
+logo:
+  file: "/logos/v0.svg"
+  page: "https://v0.app"
+  url: "https://v0.app/chat-static/_next/static/immutable/media/logo-v0-light.442nx-e-yl-x_.svg"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-app-builders
+summary: "Prompt-to-app builder on a Next.js and React stack with one-click deploys to Vercel and GitHub sync, priced per user from $30 a month."
+build:
+  - web-app
+  - landing-page
+  - internal-tool
+audience:
+  - developer
+  - startup-founder
+  - agency
+technicalLevel: code-first
+output: code-in-your-repo
+freePlan: true
+freePlanLimits: "7 messages per day. Deploy to Vercel and GitHub sync are included."
+trialDays: null
+refundDays: null
+centralQuestion: "Is v0 the right builder if you want real Next.js code and Vercel hosting?"
+bestFor: "Developers and product teams who work in Next.js, Tailwind and shadcn/ui and deploy on Vercel."
+notIdealFor: "Non-technical owners who want a built-in database and logins without connecting their own backend."
+editorial: "v0 is the most developer-shaped tool in this group: it works with Next.js, Tailwind and shadcn/ui, syncs to GitHub and deploys to Vercel. That makes leaving easy for a developer and harder for someone who never wants to see code."
+pros:
+  - "GitHub sync and deploy to Vercel are included on every plan, including Free."
+  - "Works with a common stack: Next.js, Tailwind and shadcn/ui."
+  - "Deploys can go straight to production or open a pull request for review."
+  - "Business turns training opt-out on by default."
+cons:
+  - "Pricing is per user: a three-person team on Plus pays $90 a month."
+  - "The free plan is limited to 7 messages per day."
+  - "A database is something you connect, not a built-in service, according to the pages we read."
+  - "The Plus price shows a second figure ($90) with no label, so check the price at checkout."
+review:
+  - id: stack
+    heading: "What v0 builds with"
+    body:
+      - "v0 describes itself as working with your stack: Next.js, Tailwind, shadcn/ui and more. You describe a feature in plain language, and v0 writes it. Data comes from APIs and databases you connect, not from a database v0 hosts for you."
+      - "A product engineer who already runs an app on Vercel can ask v0 for a new settings page and get code in the same stack, then open a pull request for review."
+    sources:
+      - title: "v0 home page"
+        url: "https://v0.app"
+        accessed: 2026-10-28
+  - id: pricing
+    heading: "Prices and credits"
+    body:
+      - "Free costs $0 and allows 7 messages per day. Plus costs $30 per user per month and Business $100 per user per month. Both include $30 of monthly credits per user, plus $2 of daily credits per user on login."
+      - "The Plus price on the pricing page appears next to a second figure, $90, without a label. We store $30 and recommend checking at checkout."
+    sources:
+      - title: "v0 pricing"
+        url: "https://v0.app/pricing"
+        accessed: 2026-10-28
+facts:
+  app_from_prompt:
+    value: "yes"
+    note: "Ship features and live prototypes with a prompt."
+    source: "https://v0.app"
+    accessed: 2026-10-28
+  edits_by_chat:
+    value: "yes"
+    source: "https://v0.app"
+    accessed: 2026-10-28
+  visual_editor:
+    value: unknown
+  database_included:
+    value: unknown
+    note: "The home page describes connecting your own backend and databases."
+  auth_included:
+    value: unknown
+  hosting_included:
+    value: "yes"
+    note: "One-click deploys to Vercel infrastructure."
+    source: "https://v0.app"
+    accessed: 2026-10-28
+  mobile_output:
+    value: unknown
+  payments:
+    value: unknown
+  custom_domain:
+    value: unknown
+  github_sync:
+    value: "yes"
+    note: "Listed on Free and included in higher plans."
+    source: "https://v0.app/pricing"
+    accessed: 2026-10-28
+  code_export:
+    value: unknown
+  team_workspace:
+    value: "yes"
+    note: "Shared team chats on Plus and Business."
+    source: "https://v0.app/pricing"
+    accessed: 2026-10-28
+  dpa:
+    value: unknown
+plans:
+  - name: Plus
+    billing: monthly
+    termMonths: 1
+    introCents: 3000
+    renewalCents: 3000
+    currencyShown: USD
+    perSeat: true
+    credits: "$30 of monthly credits per user, plus $2 of daily credits on login"
+    note: "The page also shows $90 next to this price without a label."
+    source: "https://v0.app/pricing"
+    accessed: 2026-10-28
+  - name: Business
+    billing: monthly
+    termMonths: 1
+    introCents: 10000
+    renewalCents: 10000
+    currencyShown: USD
+    perSeat: true
+    credits: "$30 of monthly credits per user, plus $2 of daily credits on login"
+    limits:
+      - "Training opt-out by default"
+    source: "https://v0.app/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

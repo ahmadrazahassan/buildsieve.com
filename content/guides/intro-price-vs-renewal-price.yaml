@@ -1,0 +1,46 @@
+slug: intro-price-vs-renewal-price
+title: "Intro price vs. renewal price: what a website builder costs in year three"
+tag: Pricing
+status: published
+centralQuestion: "How do you compare a $2.49 intro offer with a $12 price that never changes?"
+description: "How intro prices, prepaid terms and renewal prices work on website builders, with three-year totals from Hostinger, Squarespace and Framer."
+intro: "The price on a builder's banner is often the price for a long prepaid term, not what you pay forever. This guide shows how to turn any offer into a three-year total so you can compare like with like."
+sections:
+  - heading: "Three numbers to find on every pricing page"
+    body:
+      - "For each plan, write down the monthly price, the term it applies to and the price after the term. If the page shows only one number and no term, it usually means the price is billed monthly or yearly at the same rate each time."
+    points:
+      - "Intro price: the monthly figure on the plan card."
+      - "Term: how many months you prepay at that price."
+      - "Renewal price: what each month costs after the term."
+    sources:
+      - title: "Hostinger Website Builder"
+        url: "https://www.hostinger.com/website-builder"
+        accessed: 2026-10-28
+  - heading: "A worked example"
+    body:
+      - "Hostinger Premium: $2.49 a month for 48 months, charged as $119.52 today, then $10.99 a month. Year one costs $29.88, three years $89.64. Squarespace Basic billed annually: $12 a month, $144 a year, $432 over three years. Framer Basic: $10 a month, $360 over three years."
+      - "Hostinger is the cheapest over three years, but only because you have prepaid a fourth year. Over a longer horizon the renewal price takes over: from year five, Premium costs $131.88 a year."
+    tools:
+      - hostinger-website-builder
+      - squarespace
+      - framer
+    sources:
+      - title: "Hostinger Website Builder"
+        url: "https://www.hostinger.com/website-builder"
+        accessed: 2026-10-28
+      - title: "Squarespace pricing"
+        url: "https://www.squarespace.com/pricing"
+        accessed: 2026-10-28
+      - title: "Framer pricing"
+        url: "https://www.framer.com/pricing"
+        accessed: 2026-10-28
+  - heading: "When a long term is fine"
+    body:
+      - "A long prepaid term is reasonable when you are sure about the platform and the money-back window lets you test it first. Hostinger lists a 30-day money-back guarantee. If you are not sure yet, a monthly or yearly plan costs more per month but lets you leave sooner."
+    sources:
+      - title: "Hostinger Website Builder"
+        url: "https://www.hostinger.com/website-builder"
+        accessed: 2026-10-28
+published: 2026-10-28
+updated: 2026-10-28

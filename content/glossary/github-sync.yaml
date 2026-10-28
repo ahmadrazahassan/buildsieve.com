@@ -1,0 +1,11 @@
+slug: github-sync
+term: "GitHub sync"
+status: published
+definition:
+  - "A connection that keeps your project's code in a GitHub repository you control. Two-way sync means changes in either place show up in the other; Base44 describes two-way GitHub sync on its pricing page."
+related:
+  - code-export
+sources:
+  - title: "Base44 pricing"
+    url: "https://base44.com/pricing"
+    accessed: 2026-10-28

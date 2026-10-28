@@ -1,0 +1,11 @@
+slug: code-export
+term: "Code export"
+status: published
+definition:
+  - "The ability to download or sync the code of your site or app so you can host it elsewhere. Lovable documents code download from Pro and Git sync on every plan."
+related:
+  - github-sync
+sources:
+  - title: "Lovable docs: Subscription plans"
+    url: "https://docs.lovable.dev/introduction/subscription-plans"
+    accessed: 2026-10-28

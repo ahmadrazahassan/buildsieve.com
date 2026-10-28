@@ -1,0 +1,19 @@
+slug: ai-app-builders
+name: AI app builders
+singular: AI app builder
+status: published
+order: 2
+centralQuestion: "Which AI app builder turns your idea into a working app without locking you in?"
+intro: "Prompt-to-app tools that generate a working web app with a backend. We rank them on documented facts, what their credits or tokens buy, and whether you can take your code with you."
+guide:
+  - heading: "Understand the unit you pay for"
+    body:
+      - "Every builder here meters usage differently: credits per message on Lovable, tokens on Bolt.new, dollar-denominated credits on v0 and Replit, message and integration credits on Base44, workload units on Bubble. The plan price only tells you how many units you get, so estimate how much you will build each month."
+  - heading: "Built-in backend or bring your own"
+    body:
+      - "Base44, Bolt.new and Replit list a database and authentication as built-in services. v0 expects you to connect your own backend. Built in is faster to start; connecting your own keeps your data portable."
+  - heading: "Code ownership"
+    body:
+      - "Lovable offers Git sync on every plan and code download from Pro. Base44 exports full source code through GitHub sync from its Builder plan. For other tools, the pages we read do not document an export, so check before you invest months of work."
+related:
+  - ai-website-builders

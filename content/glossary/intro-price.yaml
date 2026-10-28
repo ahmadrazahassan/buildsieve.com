@@ -1,0 +1,11 @@
+slug: intro-price
+term: "Intro price"
+status: published
+definition:
+  - "A discounted price for the first term of a subscription, often tied to a long prepayment. Always read it together with the term length and the renewal price."
+related:
+  - renewal-price
+sources:
+  - title: "Hostinger Website Builder"
+    url: "https://www.hostinger.com/website-builder"
+    accessed: 2026-10-28

@@ -1,0 +1,144 @@
+slug: replit
+name: Replit
+status: published
+verification: verified
+website: "https://replit.com"
+logo:
+  file: "/logos/replit.png"
+  page: "https://docs.replit.com"
+  url: "https://docs.replit.com/mintlify-assets/_mintlify/favicons/replit/bmCuvIiWqqoyeE2o/_generated/favicon/android-chrome-192x192.png"
+  accessed: 2026-10-28
+vendor:
+  status: active
+categories:
+  - ai-app-builders
+summary: "An agent that turns a description into a working app, with a built-in database, authentication and hosting. Core costs $20 a month."
+build:
+  - web-app
+  - internal-tool
+  - mobile-app
+audience:
+  - startup-founder
+  - developer
+  - student
+  - small-business
+technicalLevel: low-code
+output: hosted-site
+freePlan: true
+freePlanLimits: "The pricing page does not list the free Starter plan's limits."
+trialDays: null
+refundDays: null
+centralQuestion: "Is Replit's Core plan enough to build and host a small app?"
+bestFor: "Founders and students who want database, logins and hosting set up for them, and who may later want to read the code."
+notIdealFor: "Teams that need a confirmed custom domain or export path before choosing, since the pages we read cover neither."
+editorial: "Replit bundles the services a first app needs, database, authentication and hosting, with zero setup according to its home page. The pricing page is clear about Core and Pro, less clear about the free plan, and silent on custom domains."
+pros:
+  - "Database, authentication and hosting are listed as built-in services with zero setup."
+  - "Core is $20 a month, or $18 a month billed annually, and includes $20 of usage toward more powerful models."
+  - "Pro allows up to 15 collaborators and 50 viewers, plus database rollback up to 28 days."
+  - "Mobile is listed as a starting option alongside websites."
+cons:
+  - "The pricing page does not list the free Starter plan's limits."
+  - "Custom domains are not mentioned on the pages we read."
+  - "Pro jumps to $100 a month, or $90 billed annually."
+  - "The pages we read do not describe code export or GitHub."
+review:
+  - id: built-in
+    heading: "Built-in services"
+    body:
+      - "Replit's home page lists a database, authentication and hosting among built-in services with zero setup, and says Replit writes production-ready code from a description. You publish from inside the editor."
+      - "A student building a club sign-up app gets the database and logins without creating separate accounts elsewhere, which removes the most common reason first projects stall."
+    sources:
+      - title: "Replit"
+        url: "https://replit.com"
+        accessed: 2026-10-28
+  - id: plans
+    heading: "Core and Pro"
+    body:
+      - "Core costs $20 a month or $18 a month billed annually. It includes $20 toward more powerful models, up to 30 hours of chat in Free Mode and up to 60 projects in Free Mode. Pro costs $100 a month or $90 billed annually, includes $100 in credits and $100 toward the most powerful models, up to 10 parallel agents, 15 collaborators and 50 viewers."
+    sources:
+      - title: "Replit pricing"
+        url: "https://replit.com/pricing"
+        accessed: 2026-10-28
+facts:
+  app_from_prompt:
+    value: "yes"
+    note: "Turn ideas into apps in minutes, no coding needed."
+    source: "https://replit.com"
+    accessed: 2026-10-28
+  edits_by_chat:
+    value: "yes"
+    note: "Core includes hours of chat in Free Mode and Plan mode."
+    source: "https://replit.com/pricing"
+    accessed: 2026-10-28
+  visual_editor:
+    value: unknown
+  database_included:
+    value: "yes"
+    source: "https://replit.com"
+    accessed: 2026-10-28
+  auth_included:
+    value: "yes"
+    source: "https://replit.com"
+    accessed: 2026-10-28
+  hosting_included:
+    value: "yes"
+    source: "https://replit.com"
+    accessed: 2026-10-28
+  mobile_output:
+    value: partly
+    note: "Mobile is listed as a starting option with no further detail."
+    source: "https://replit.com"
+    accessed: 2026-10-28
+  payments:
+    value: unknown
+  custom_domain:
+    value: unknown
+  github_sync:
+    value: unknown
+  code_export:
+    value: unknown
+  team_workspace:
+    value: "yes"
+    note: "Pro allows up to 15 collaborators and 50 viewers."
+    source: "https://replit.com/pricing"
+    accessed: 2026-10-28
+  dpa:
+    value: unknown
+plans:
+  - name: Core (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 2000
+    renewalCents: 2000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "$20 toward more powerful models"
+    source: "https://replit.com/pricing"
+    accessed: 2026-10-28
+  - name: Core (annual)
+    billing: yearly
+    termMonths: 12
+    introCents: 1800
+    renewalCents: 1800
+    upfrontCents: 21600
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "$20 toward more powerful models"
+    source: "https://replit.com/pricing"
+    accessed: 2026-10-28
+  - name: Pro (monthly)
+    billing: monthly
+    termMonths: 1
+    introCents: 10000
+    renewalCents: 10000
+    currencyShown: "$ (no currency code shown)"
+    perSeat: false
+    credits: "$100 in credits and $100 toward the most powerful models"
+    limits:
+      - "Up to 15 collaborators and 50 viewers"
+      - "Database rollback up to 28 days"
+    source: "https://replit.com/pricing"
+    accessed: 2026-10-28
+published: 2026-10-28
+lastReviewed: 2026-10-28

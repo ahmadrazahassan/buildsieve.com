@@ -1,0 +1,34 @@
+slug: can-you-export-your-app
+title: "Can you take your site or app with you when you leave?"
+tag: Ownership
+status: published
+centralQuestion: "Which AI builders document a way to take your code with you?"
+description: "Which AI website and app builders document code export or GitHub sync, which do not, and what an unknown answer should mean for your plans."
+intro: "Lock-in is the cost nobody prints on a pricing page. Here is what the vendors we cover say about exporting your work, and what to do when they say nothing."
+sections:
+  - heading: "Documented exits"
+    body:
+      - "Lovable documents Git sync with GitHub, GitLab and Bitbucket on every plan and code download from Pro. Base44's pricing FAQ says two-way GitHub sync exports the full source code to your own repo, with the GitHub integration listed from Builder. v0 lists GitHub sync on every plan, including Free."
+    tools:
+      - lovable
+      - base44
+      - v0
+    sources:
+      - title: "Lovable docs: Subscription plans"
+        url: "https://docs.lovable.dev/introduction/subscription-plans"
+        accessed: 2026-10-28
+      - title: "Base44 pricing"
+        url: "https://base44.com/pricing"
+        accessed: 2026-10-28
+      - title: "v0 pricing"
+        url: "https://v0.app/pricing"
+        accessed: 2026-10-28
+  - heading: "No statement found"
+    body:
+      - "For Framer, Wix, Squarespace, Hostinger, Durable, Bolt.new, Replit and Bubble, the pages we read do not describe a code export. Bubble's home page mentions importing code, which is the opposite direction. An unknown is not a no, but it means you should ask the vendor before you build something you cannot afford to rebuild."
+    sources:
+      - title: "Bubble"
+        url: "https://bubble.io"
+        accessed: 2026-10-28
+published: 2026-10-28
+updated: 2026-10-28

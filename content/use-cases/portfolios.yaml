@@ -1,0 +1,16 @@
+slug: portfolios
+title: "Best AI website builders for portfolios"
+status: published
+centralQuestion: "Which AI website builder suits a portfolio you want to show clients?"
+description: "AI website builders that vendors position for portfolios, ranked by Research Score with true cost, custom domain and CMS facts."
+rule:
+  build:
+    - portfolio
+  requireFacts:
+    - custom_domain
+  text: "Tools positioned for portfolios that document a custom domain on a paid plan, sorted by Research Score."
+explanation:
+  - "A portfolio needs a custom domain, room for case studies and a price you can keep paying when work is slow. Page caps matter less than a CMS for projects, so look at CMS limits first."
+  - "Example: a photographer with 20 projects needs a CMS collection for projects and a custom domain. On Framer Basic that is covered by 2 collections and 1,000 CMS items at $10 a month."
+published: 2026-10-28
+updated: 2026-10-28

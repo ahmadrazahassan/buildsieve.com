@@ -1,0 +1,9 @@
+slug: transaction-fee
+term: "Transaction fee"
+status: published
+definition:
+  - "A percentage a builder charges on sales, on top of the payment processor's fees. Squarespace charges a 2% online store fee on Basic and 0% on Core and Advanced."
+sources:
+  - title: "Squarespace pricing"
+    url: "https://www.squarespace.com/pricing"
+    accessed: 2026-10-28
