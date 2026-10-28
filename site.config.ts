@@ -12,7 +12,7 @@ export const siteConfig = {
 
   // Site ownership checks from affiliate networks. Public values, not secrets.
   verification: {
-    impact: "43000ce9-67ca-4c5c-8d74-cd36a5022913",
+    impact: "7d911e6b-8940-49ec-98f5-4624c4678053",
   },
 
   owner: {
