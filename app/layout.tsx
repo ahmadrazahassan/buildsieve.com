@@ -39,6 +39,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   const categories = getCategories().map(({ slug, name, intro }) => ({ slug, name, intro }));
   return (
     <html lang="en-US" className={`${inter.variable} ${googleSansFlex.variable}`}>
+      <head>
+        {/* Impact checks for a `value` attribute, which the Metadata API cannot emit. */}
+        <meta name="impact-site-verification" {...{ value: siteConfig.verification.impact }} />
+      </head>
       <body className="min-h-dvh">
         <a
           href="#main"

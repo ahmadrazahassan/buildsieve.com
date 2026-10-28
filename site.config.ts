@@ -10,6 +10,11 @@ export const siteConfig = {
   scoreName: "Buildsieve Research Score",
   scoreMethodVersion: "R1.0",
 
+  // Site ownership checks from affiliate networks. Public values, not secrets.
+  verification: {
+    impact: "43000ce9-67ca-4c5c-8d74-cd36a5022913",
+  },
+
   owner: {
     name: "{{OWNER_NAME}}",
     country: "{{OWNER_COUNTRY}}",
