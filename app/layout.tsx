@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
@@ -56,6 +57,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <SiteFooter />
           <SearchPalette />
         </NuqsAdapter>
+        {/* Cookieless, so no consent entry is needed (brief Section 3.6). */}
+        {siteConfig.flags.analytics && <Analytics />}
       </body>
     </html>
   );

@@ -33,7 +33,7 @@ export default function PrivacyPage() {
         <h2>Analytics</h2>
         <p>
           {siteConfig.flags.analytics
-            ? "We use Vercel Web Analytics, which works without cookies and does not identify individual visitors."
+            ? "We use Vercel Web Analytics (Vercel Inc., United States) to count page views. It sets no cookies and stores nothing in your browser. It records the page address, the referring site, browser, operating system, device type and country. Visitors are counted with a hash of the request that is discarded after one day, so we cannot identify you or follow you across days. Legal basis: our legitimate interest in knowing which pages are useful. Data is kept as Vercel's data processing agreement sets out."
             : "No analytics service is active."}
         </p>
       </section>

@@ -45,6 +45,12 @@ Downloaded one official mark per vendor from the vendor's own website, docs site
 - The "Affiliate link" label and `rel="sponsored nofollow noopener"` appear only when that tool's click can earn a commission; other buttons use `rel="nofollow noopener"`.
 - Change from the brief: the brief falls back to the profile for inactive slugs. The owner asked that vendor links always go through the site's redirect, so a visitor who clicks "Visit" still reaches the vendor.
 
+## 2026-10-29 Domain live, Vercel Web Analytics on
+
+- buildsieve.com is registered by the owner and added to the Vercel project.
+- `@vercel/analytics` 2.0.1 renders `<Analytics />` from the root layout behind the `analytics` flag, now on. It is cookieless, so it is not in the consent service list and no banner appears. The privacy policy names it with what it records.
+- `indexing` stays off: the legal pages still show 15 open owner placeholders and the brief puts "switch indexing on" after launch content and lawyer review.
+
 ## 2026-10-28 Webflow left out of the first batch
 
 webflow.com/pricing failed twice (timeout, then a header overflow error). Rather than publish a profile from memory, Webflow waits for the next research pass.

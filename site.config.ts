@@ -2,8 +2,7 @@
 // Open values are written in double braces; `pnpm placeholders` lists them.
 
 export const siteConfig = {
-  // Provisional: proposal from Phase 0, buildsieve.com returned RDAP 404 (not registered)
-  // at rdap.verisign.com on 2026-10-28. The owner decides and registers.
+  // Registered by the owner and added to the Vercel project on 2026-10-29.
   brandName: "Buildsieve",
   domain: "buildsieve.com",
   url: "https://buildsieve.com",
@@ -40,7 +39,8 @@ export const siteConfig = {
     affiliateLinks: false,
     ads: false,
     userReviews: false,
-    analytics: false,
+    // Vercel Web Analytics, cookieless. Enable it in the Vercel project's Analytics tab too.
+    analytics: true,
     // Off until launch content is published (launch checklist item).
     indexing: false,
   },
